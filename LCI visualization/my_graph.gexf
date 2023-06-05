@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-31">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" label="Ni-based Superalloy" />
+      <node id="('cutoff391', '823822c452c6258a6ce360939935f26f')" label="('cutoff391', '823822c452c6258a6ce360939935f26f')" />
+      <node id="('cutoff391', 'd159da75569807fa5869d3a82f5de121')" label="('cutoff391', 'd159da75569807fa5869d3a82f5de121')" />
+      <node id="('cutoff391', '3de11ec49c2a8ff3ec0008303b75d475')" label="('cutoff391', '3de11ec49c2a8ff3ec0008303b75d475')" />
+      <node id="('cutoff391', '0409a01e5c245a0dc2ae585a86d38efc')" label="('cutoff391', '0409a01e5c245a0dc2ae585a86d38efc')" />
+      <node id="('cutoff391', '156367140fa6ac6c4903900b7a8e8149')" label="('cutoff391', '156367140fa6ac6c4903900b7a8e8149')" />
+      <node id="('cutoff391', '0f23c62795fba0e3169d798d7048a26f')" label="('cutoff391', '0f23c62795fba0e3169d798d7048a26f')" />
+      <node id="('cutoff391', '4347b9665d0aea69c7956fa09ac8db07')" label="('cutoff391', '4347b9665d0aea69c7956fa09ac8db07')" />
+      <node id="('cutoff391', '1ffe09506f70be4dcd98071865e8a549')" label="('cutoff391', '1ffe09506f70be4dcd98071865e8a549')" />
+      <node id="('cutoff391', 'cbba1d5c4658c85a617f5173516cc257')" label="('cutoff391', 'cbba1d5c4658c85a617f5173516cc257')" />
+      <node id="('materials', '31f1a80380444c41ad2b1b1cceb9d5d5')" label="Al 2024" />
+      <node id="('cutoff391', '4d5473bbb237606275ad372ddedf037f')" label="('cutoff391', '4d5473bbb237606275ad372ddedf037f')" />
+      <node id="('cutoff391', '4c28de4114cc15a555d2c447878fb615')" label="('cutoff391', '4c28de4114cc15a555d2c447878fb615')" />
+      <node id="('materials', 'a835e7d64a65472db62efc6458d76afe')" label="CFRP" />
+      <node id="('cutoff391', 'c52fd3aad9cb8921c70e21a0206414f6')" label="('cutoff391', 'c52fd3aad9cb8921c70e21a0206414f6')" />
+      <node id="('materials', 'bdcf107b10774353a917f25039aac9f6')" label="Al 6061" />
+      <node id="('materials', 'd7163e2b875a420995749f0eed63de0d')" label="High-Strength Steel" />
+      <node id="('cutoff391', '6af7fc101112f29fb43953d562902932')" label="('cutoff391', '6af7fc101112f29fb43953d562902932')" />
+      <node id="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" label="Al 7075" />
+      <node id="('cutoff391', '234bef98671292c886679c2bf2528f1f')" label="('cutoff391', '234bef98671292c886679c2bf2528f1f')" />
+      <node id="('materials', '0508a9434cd24602a9e74cdfd0f70e34')" label="Ti64" />
+      <node id="('cutoff391', 'e377a106b47e2561933462fdb23f9588')" label="('cutoff391', 'e377a106b47e2561933462fdb23f9588')" />
+      <node id="('materials', 'cd16b5591d9e48f3a3ad7bed69a7f250')" label="GFRP" />
+      <node id="('cutoff391', 'baf9fd46b7a5fc32fc070e2c1aa4674c')" label="('cutoff391', 'baf9fd46b7a5fc32fc070e2c1aa4674c')" />
+      <node id="('materials', 'eed2b8888a504c54acae7ff7c483a158')" label="Al 7050" />
+      <node id="('cutoff391', '5298254fa3c87afd6b7e4e8dd48f1635')" label="('cutoff391', '5298254fa3c87afd6b7e4e8dd48f1635')" />
+      <node id="('materials', 'a5258f643b44456481f381d6b6c38573')" label="Ti-10-2-3" />
+      <node id="('materials', '47b77c7b02e04217adb8c3673dd2187a')" label="Ti-3-2.5" />
+      <node id="('materials', 'fab05c17548a44a0a7852635c994794b')" label="AFRP" />
+      <node id="('materials', '911ba448e9154666a7022de969512563')" label="Ti 6-2-4-2" />
+      <node id="('cutoff391', 'ddff069daa805b575e737187192b3402')" label="('cutoff391', 'ddff069daa805b575e737187192b3402')" />
+    </nodes>
+    <edges>
+      <edge source="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="0" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="1" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', '31f1a80380444c41ad2b1b1cceb9d5d5')" id="2" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', 'bdcf107b10774353a917f25039aac9f6')" id="3" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" id="4" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', '0508a9434cd24602a9e74cdfd0f70e34')" id="5" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', 'eed2b8888a504c54acae7ff7c483a158')" id="6" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', 'a5258f643b44456481f381d6b6c38573')" id="7" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', '47b77c7b02e04217adb8c3673dd2187a')" id="8" />
+      <edge source="('cutoff391', '823822c452c6258a6ce360939935f26f')" target="('materials', '911ba448e9154666a7022de969512563')" id="9" />
+      <edge source="('cutoff391', 'd159da75569807fa5869d3a82f5de121')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="10" />
+      <edge source="('cutoff391', '3de11ec49c2a8ff3ec0008303b75d475')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="11" />
+      <edge source="('cutoff391', '3de11ec49c2a8ff3ec0008303b75d475')" target="('materials', 'bdcf107b10774353a917f25039aac9f6')" id="12" />
+      <edge source="('cutoff391', '3de11ec49c2a8ff3ec0008303b75d475')" target="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" id="13" />
+      <edge source="('cutoff391', '0409a01e5c245a0dc2ae585a86d38efc')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="14" />
+      <edge source="('cutoff391', '0409a01e5c245a0dc2ae585a86d38efc')" target="('materials', 'a5258f643b44456481f381d6b6c38573')" id="15" />
+      <edge source="('cutoff391', '156367140fa6ac6c4903900b7a8e8149')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="16" />
+      <edge source="('cutoff391', '156367140fa6ac6c4903900b7a8e8149')" target="('materials', '31f1a80380444c41ad2b1b1cceb9d5d5')" id="17" />
+      <edge source="('cutoff391', '0f23c62795fba0e3169d798d7048a26f')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="18" />
+      <edge source="('cutoff391', '0f23c62795fba0e3169d798d7048a26f')" target="('materials', '911ba448e9154666a7022de969512563')" id="19" />
+      <edge source="('cutoff391', '4347b9665d0aea69c7956fa09ac8db07')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="20" />
+      <edge source="('cutoff391', '1ffe09506f70be4dcd98071865e8a549')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="21" />
+      <edge source="('cutoff391', '1ffe09506f70be4dcd98071865e8a549')" target="('materials', 'bdcf107b10774353a917f25039aac9f6')" id="22" />
+      <edge source="('cutoff391', 'cbba1d5c4658c85a617f5173516cc257')" target="('materials', 'edad4946ef5a4ed78c3c9206735edc5a')" id="23" />
+      <edge source="('cutoff391', 'cbba1d5c4658c85a617f5173516cc257')" target="('materials', '0508a9434cd24602a9e74cdfd0f70e34')" id="24" />
+      <edge source="('cutoff391', 'cbba1d5c4658c85a617f5173516cc257')" target="('materials', 'a5258f643b44456481f381d6b6c38573')" id="25" />
+      <edge source="('cutoff391', 'cbba1d5c4658c85a617f5173516cc257')" target="('materials', '47b77c7b02e04217adb8c3673dd2187a')" id="26" />
+      <edge source="('cutoff391', 'cbba1d5c4658c85a617f5173516cc257')" target="('materials', '911ba448e9154666a7022de969512563')" id="27" />
+      <edge source="('materials', '31f1a80380444c41ad2b1b1cceb9d5d5')" target="('materials', '31f1a80380444c41ad2b1b1cceb9d5d5')" id="28" />
+      <edge source="('cutoff391', '4d5473bbb237606275ad372ddedf037f')" target="('materials', '31f1a80380444c41ad2b1b1cceb9d5d5')" id="29" />
+      <edge source="('cutoff391', '4d5473bbb237606275ad372ddedf037f')" target="('materials', 'bdcf107b10774353a917f25039aac9f6')" id="30" />
+      <edge source="('cutoff391', '4d5473bbb237606275ad372ddedf037f')" target="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" id="31" />
+      <edge source="('cutoff391', '4d5473bbb237606275ad372ddedf037f')" target="('materials', 'eed2b8888a504c54acae7ff7c483a158')" id="32" />
+      <edge source="('cutoff391', '4c28de4114cc15a555d2c447878fb615')" target="('materials', '31f1a80380444c41ad2b1b1cceb9d5d5')" id="33" />
+      <edge source="('cutoff391', '4c28de4114cc15a555d2c447878fb615')" target="('materials', 'bdcf107b10774353a917f25039aac9f6')" id="34" />
+      <edge source="('cutoff391', '4c28de4114cc15a555d2c447878fb615')" target="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" id="35" />
+      <edge source="('cutoff391', '4c28de4114cc15a555d2c447878fb615')" target="('materials', 'eed2b8888a504c54acae7ff7c483a158')" id="36" />
+      <edge source="('materials', 'a835e7d64a65472db62efc6458d76afe')" target="('materials', 'a835e7d64a65472db62efc6458d76afe')" id="37" />
+      <edge source="('cutoff391', 'c52fd3aad9cb8921c70e21a0206414f6')" target="('materials', 'a835e7d64a65472db62efc6458d76afe')" id="38" />
+      <edge source="('cutoff391', 'c52fd3aad9cb8921c70e21a0206414f6')" target="('materials', 'fab05c17548a44a0a7852635c994794b')" id="39" />
+      <edge source="('materials', 'bdcf107b10774353a917f25039aac9f6')" target="('materials', 'bdcf107b10774353a917f25039aac9f6')" id="40" />
+      <edge source="('materials', 'd7163e2b875a420995749f0eed63de0d')" target="('materials', 'd7163e2b875a420995749f0eed63de0d')" id="41" />
+      <edge source="('cutoff391', '6af7fc101112f29fb43953d562902932')" target="('materials', 'd7163e2b875a420995749f0eed63de0d')" id="42" />
+      <edge source="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" target="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" id="43" />
+      <edge source="('cutoff391', '234bef98671292c886679c2bf2528f1f')" target="('materials', 'b9951ab84e9d4cb0a1640cd0a01fd32c')" id="44" />
+      <edge source="('cutoff391', '234bef98671292c886679c2bf2528f1f')" target="('materials', 'eed2b8888a504c54acae7ff7c483a158')" id="45" />
+      <edge source="('materials', '0508a9434cd24602a9e74cdfd0f70e34')" target="('materials', '0508a9434cd24602a9e74cdfd0f70e34')" id="46" />
+      <edge source="('cutoff391', 'e377a106b47e2561933462fdb23f9588')" target="('materials', '0508a9434cd24602a9e74cdfd0f70e34')" id="47" />
+      <edge source="('cutoff391', 'e377a106b47e2561933462fdb23f9588')" target="('materials', 'a5258f643b44456481f381d6b6c38573')" id="48" />
+      <edge source="('cutoff391', 'e377a106b47e2561933462fdb23f9588')" target="('materials', '47b77c7b02e04217adb8c3673dd2187a')" id="49" />
+      <edge source="('materials', 'cd16b5591d9e48f3a3ad7bed69a7f250')" target="('materials', 'cd16b5591d9e48f3a3ad7bed69a7f250')" id="50" />
+      <edge source="('cutoff391', 'baf9fd46b7a5fc32fc070e2c1aa4674c')" target="('materials', 'cd16b5591d9e48f3a3ad7bed69a7f250')" id="51" />
+      <edge source="('materials', 'eed2b8888a504c54acae7ff7c483a158')" target="('materials', 'eed2b8888a504c54acae7ff7c483a158')" id="52" />
+      <edge source="('cutoff391', '5298254fa3c87afd6b7e4e8dd48f1635')" target="('materials', 'eed2b8888a504c54acae7ff7c483a158')" id="53" />
+      <edge source="('cutoff391', '5298254fa3c87afd6b7e4e8dd48f1635')" target="('materials', '911ba448e9154666a7022de969512563')" id="54" />
+      <edge source="('materials', 'a5258f643b44456481f381d6b6c38573')" target="('materials', 'a5258f643b44456481f381d6b6c38573')" id="55" />
+      <edge source="('materials', '47b77c7b02e04217adb8c3673dd2187a')" target="('materials', '47b77c7b02e04217adb8c3673dd2187a')" id="56" />
+      <edge source="('materials', 'fab05c17548a44a0a7852635c994794b')" target="('materials', 'fab05c17548a44a0a7852635c994794b')" id="57" />
+      <edge source="('materials', '911ba448e9154666a7022de969512563')" target="('materials', '911ba448e9154666a7022de969512563')" id="58" />
+      <edge source="('cutoff391', 'ddff069daa805b575e737187192b3402')" target="('materials', '911ba448e9154666a7022de969512563')" id="59" />
+    </edges>
+  </graph>
+</gexf>

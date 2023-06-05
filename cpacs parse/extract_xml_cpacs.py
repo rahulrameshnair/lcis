@@ -1,3 +1,8 @@
+"""Note: this script has been depreciated and replaced with "extract_xml_cpacs_xpath"
+The reason is that this script uses the uID to parse the cpacs data which is not robust compared to
+the method of xpath.
+
+"""
 import xml.etree.ElementTree as ET
 import pandas as pd
 # make sure to have easygui installed using pip install easygui
@@ -5,7 +10,7 @@ import easygui
 from easygui import *
 
 documentation = '''
-Logic behind this cript
+Logic behind this script
 
 Note: Please make sure that the variable 'id_filename' stores the path of the uids excel file (uids.xlsx).
 This uids excel file contains all the unique ids whose masses must be extracted from the cpacs file

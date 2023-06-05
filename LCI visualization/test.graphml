@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="color" attr.type="string"/>
+<key id="d3" for="edge" attr.name="arrows" attr.type="boolean"/>
+<key id="d2" for="node" attr.name="color" attr.type="string"/>
+<key id="d1" for="node" attr.name="arrows" attr.type="boolean"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Al 2024">
+  <data key="d0">Al 2024</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for aluminium, primary, ingot"/>
+<node id="market for copper scrap, sorted, pressed"/>
+<node id="market for magnesium"/>
+<node id="market for manganese"/>
+<node id="High-Strength Steel">
+  <data key="d0">High-Strength Steel</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for steel, chromium steel 18/8"/>
+<node id="Ti 6-2-4-2">
+  <data key="d0">Ti 6-2-4-2</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for molybdenum"/>
+<node id="market for tin"/>
+<node id="market for titanium"/>
+<node id="market for zirconium oxide"/>
+<node id="Al 6061">
+  <data key="d0">Al 6061</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for chromium"/>
+<node id="market for silicon, metallurgical grade"/>
+<node id="GFRP">
+  <data key="d0">GFRP</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for glass fibre reinforced plastic, polyamide, injection moulded"/>
+<node id="Ti64">
+  <data key="d0">Ti64</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for tantalum powder, capacitor-grade"/>
+<node id="Ti-3-2.5">
+  <data key="d0">Ti-3-2.5</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="Ni-based Superalloy">
+  <data key="d0">Ni-based Superalloy</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for carbon black"/>
+<node id="market for iron pellet"/>
+<node id="market for nickel, class 1"/>
+<node id="Al 7050">
+  <data key="d0">Al 7050</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for zinc"/>
+<node id="Al 7075">
+  <data key="d0">Al 7075</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="CFRP">
+  <data key="d0">CFRP</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="market for carbon fibre reinforced plastic, injection moulded"/>
+<node id="Ti-10-2-3">
+  <data key="d0">Ti-10-2-3</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<node id="AFRP">
+  <data key="d0">AFRP</data>
+  <data key="d1">True</data>
+  <data key="d2">blue</data>
+</node>
+<edge source="Al 2024" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 2024" target="market for copper scrap, sorted, pressed">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 2024" target="market for magnesium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 2024" target="market for manganese">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="High-Strength Steel" target="market for steel, chromium steel 18/8">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti 6-2-4-2" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti 6-2-4-2" target="market for molybdenum">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti 6-2-4-2" target="market for tin">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti 6-2-4-2" target="market for titanium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti 6-2-4-2" target="market for zirconium oxide">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 6061" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 6061" target="market for chromium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 6061" target="market for copper scrap, sorted, pressed">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 6061" target="market for magnesium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 6061" target="market for silicon, metallurgical grade">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="GFRP" target="market for glass fibre reinforced plastic, polyamide, injection moulded">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti64" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti64" target="market for tantalum powder, capacitor-grade">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti64" target="market for titanium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti-3-2.5" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti-3-2.5" target="market for tantalum powder, capacitor-grade">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti-3-2.5" target="market for titanium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for carbon black">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for chromium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for iron pellet">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for manganese">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for molybdenum">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for nickel, class 1">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for silicon, metallurgical grade">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ni-based Superalloy" target="market for titanium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7050" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7050" target="market for copper scrap, sorted, pressed">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7050" target="market for magnesium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7050" target="market for zinc">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7050" target="market for zirconium oxide">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7075" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7075" target="market for chromium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7075" target="market for copper scrap, sorted, pressed">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7075" target="market for magnesium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Al 7075" target="market for zinc">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="CFRP" target="market for carbon fibre reinforced plastic, injection moulded">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti-10-2-3" target="market for aluminium, primary, ingot">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti-10-2-3" target="market for iron pellet">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti-10-2-3" target="market for tantalum powder, capacitor-grade">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="Ti-10-2-3" target="market for titanium">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+<edge source="AFRP" target="market for carbon fibre reinforced plastic, injection moulded">
+  <data key="d3">True</data>
+  <data key="d4">red</data>
+</edge>
+</graph></graphml>

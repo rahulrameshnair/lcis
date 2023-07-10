@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d10" for="edge" attr.name="arrows" attr.type="boolean"/>
+<key id="d9" for="edge" attr.name="line_style" attr.type="string"/>
+<key id="d8" for="edge" attr.name="color" attr.type="string"/>
+<key id="d7" for="node" attr.name="amount" attr.type="double"/>
+<key id="d6" for="node" attr.name="color" attr.type="string"/>
+<key id="d5" for="node" attr.name="from_database" attr.type="string"/>
+<key id="d4" for="node" attr.name="type" attr.type="string"/>
+<key id="d3" for="node" attr.name="location" attr.type="string"/>
+<key id="d2" for="node" attr.name="unit" attr.type="string"/>
+<key id="d1" for="node" attr.name="amount" attr.type="long"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Ni-based Superalloy">
+  <data key="d0">Ni-based Superalloy</data>
+  <data key="d1">0</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">materials2</data>
+  <data key="d6">orange</data>
+</node>
+<node id="aluminium, primary, ingot">
+  <data key="d0">market for aluminium, primary, ingot</data>
+  <data key="d7">0.06</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">IAI Area, EU27 &amp; EFTA</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for aluminium, primary, ingot"/>
+<node id="carbon black">
+  <data key="d0">market for carbon black</data>
+  <data key="d7">0.004</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for carbon black"/>
+<node id="chromium">
+  <data key="d0">market for chromium</data>
+  <data key="d7">0.186</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for chromium"/>
+<node id="iron pellet">
+  <data key="d0">market for iron pellet</data>
+  <data key="d7">0.185</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for iron pellet"/>
+<node id="manganese">
+  <data key="d0">market for manganese</data>
+  <data key="d7">0.002</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for manganese"/>
+<node id="molybdenum">
+  <data key="d0">market for molybdenum</data>
+  <data key="d7">0.031</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for molybdenum"/>
+<node id="nickel, class 1">
+  <data key="d0">market for nickel, class 1</data>
+  <data key="d7">0.576</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for nickel, class 1"/>
+<node id="silicon, metallurgical grade">
+  <data key="d0">market for silicon, metallurgical grade</data>
+  <data key="d7">0.003</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for silicon, metallurgical grade"/>
+<node id="titanium">
+  <data key="d0">market for titanium</data>
+  <data key="d7">0.9</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for titanium"/>
+<node id="Carbon monoxide, fossil">
+  <data key="d0">air</data>
+  <data key="d1">1</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">air</data>
+  <data key="d4">biosphere</data>
+  <data key="d5">biosphere</data>
+  <data key="d6">green</data>
+</node>
+<node id="Ti64">
+  <data key="d0">Ti64</data>
+  <data key="d1">0</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">materials2</data>
+  <data key="d6">orange</data>
+</node>
+<node id="tantalum powder, capacitor-grade">
+  <data key="d0">market for tantalum powder, capacitor-grade</data>
+  <data key="d7">0.04</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for tantalum powder, capacitor-grade"/>
+<node id="Carbon dioxide, fossil">
+  <data key="d0">air</data>
+  <data key="d1">1</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">air</data>
+  <data key="d4">biosphere</data>
+  <data key="d5">biosphere</data>
+  <data key="d6">green</data>
+</node>
+<node id="GFRP">
+  <data key="d0">GFRP</data>
+  <data key="d1">0</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">materials2</data>
+  <data key="d6">orange</data>
+</node>
+<node id="glass fibre reinforced plastic, polyamide, injection moulded">
+  <data key="d0">market for glass fibre reinforced plastic, polyamide, injection moulded</data>
+  <data key="d1">1</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for glass fibre reinforced plastic, polyamide, injection moulded"/>
+<node id="Methane, bromochlorodifluoro-, Halon 1211">
+  <data key="d0">air</data>
+  <data key="d1">1</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">air</data>
+  <data key="d4">biosphere</data>
+  <data key="d5">biosphere</data>
+  <data key="d6">green</data>
+</node>
+<node id="AFRP">
+  <data key="d0">AFRP</data>
+  <data key="d1">0</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">materials2</data>
+  <data key="d6">orange</data>
+</node>
+<node id="carbon fibre reinforced plastic, injection moulded">
+  <data key="d0">market for carbon fibre reinforced plastic, injection moulded</data>
+  <data key="d1">1</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+</node>
+<node id="market for carbon fibre reinforced plastic, injection moulded"/>
+<edge source="Ni-based Superalloy" target="Ni-based Superalloy">
+  <data key="d8">black</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="Ni-based Superalloy" target="Carbon monoxide, fossil">
+  <data key="d8">green</data>
+  <data key="d9">dashed</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for aluminium, primary, ingot" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for aluminium, primary, ingot" target="Ti64">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for carbon black" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for chromium" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for iron pellet" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for manganese" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for molybdenum" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for nickel, class 1" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for silicon, metallurgical grade" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for titanium" target="Ni-based Superalloy">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for titanium" target="Ti64">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="Ti64" target="Ti64">
+  <data key="d8">black</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="Ti64" target="Carbon dioxide, fossil">
+  <data key="d8">green</data>
+  <data key="d9">dashed</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="Ti64" target="Carbon monoxide, fossil">
+  <data key="d8">green</data>
+  <data key="d9">dashed</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for tantalum powder, capacitor-grade" target="Ti64">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="GFRP" target="GFRP">
+  <data key="d8">black</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="GFRP" target="Methane, bromochlorodifluoro-, Halon 1211">
+  <data key="d8">green</data>
+  <data key="d9">dashed</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for glass fibre reinforced plastic, polyamide, injection moulded" target="GFRP">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="AFRP" target="AFRP">
+  <data key="d8">black</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="AFRP" target="Carbon dioxide, fossil">
+  <data key="d8">green</data>
+  <data key="d9">dashed</data>
+  <data key="d10">True</data>
+</edge>
+<edge source="market for carbon fibre reinforced plastic, injection moulded" target="AFRP">
+  <data key="d8">purple</data>
+  <data key="d9">solid</data>
+  <data key="d10">True</data>
+</edge>
+</graph></graphml>

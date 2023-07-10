@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d10" for="edge" attr.name="color" attr.type="string"/>
+<key id="d9" for="edge" attr.name="arrows" attr.type="boolean"/>
+<key id="d8" for="edge" attr.name="type" attr.type="string"/>
+<key id="d7" for="edge" attr.name="from_database" attr.type="string"/>
+<key id="d6" for="edge" attr.name="location" attr.type="string"/>
+<key id="d5" for="edge" attr.name="unit" attr.type="string"/>
+<key id="d4" for="edge" attr.name="label" attr.type="string"/>
+<key id="d3" for="node" attr.name="color" attr.type="string"/>
+<key id="d2" for="node" attr.name="location" attr.type="string"/>
+<key id="d1" for="node" attr.name="unit" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Ti64">
+  <data key="d0">Ti64</data>
+  <data key="d1">kilogram</data>
+  <data key="d2">GLO</data>
+  <data key="d3">blue</data>
+</node>
+<node id="market for aluminium, primary, ingot"/>
+<node id="market for tantalum powder, capacitor-grade"/>
+<node id="market for titanium"/>
+<node id="GFRP">
+  <data key="d0">GFRP</data>
+  <data key="d1">kilogram</data>
+  <data key="d2">GLO</data>
+  <data key="d3">blue</data>
+</node>
+<node id="market for glass fibre reinforced plastic, polyamide, injection moulded"/>
+<node id="AFRP">
+  <data key="d0">AFRP</data>
+  <data key="d1">kilogram</data>
+  <data key="d2">GLO</data>
+  <data key="d3">blue</data>
+</node>
+<node id="market for carbon fibre reinforced plastic, injection moulded"/>
+<edge source="market for aluminium, primary, ingot" target="Ti64">
+  <data key="d4">market for aluminium, primary, ingot</data>
+  <data key="d5">kilogram</data>
+  <data key="d6">IAI Area, EU27 &amp; EFTA</data>
+  <data key="d7">cutoff391</data>
+  <data key="d8">technosphere</data>
+  <data key="d9">True</data>
+  <data key="d10">orange</data>
+</edge>
+<edge source="market for tantalum powder, capacitor-grade" target="Ti64">
+  <data key="d4">market for tantalum powder, capacitor-grade</data>
+  <data key="d5">kilogram</data>
+  <data key="d6">GLO</data>
+  <data key="d7">cutoff391</data>
+  <data key="d8">technosphere</data>
+  <data key="d9">True</data>
+  <data key="d10">orange</data>
+</edge>
+<edge source="market for titanium" target="Ti64">
+  <data key="d4">market for titanium</data>
+  <data key="d5">kilogram</data>
+  <data key="d6">GLO</data>
+  <data key="d7">cutoff391</data>
+  <data key="d8">technosphere</data>
+  <data key="d9">True</data>
+  <data key="d10">orange</data>
+</edge>
+<edge source="market for glass fibre reinforced plastic, polyamide, injection moulded" target="GFRP">
+  <data key="d4">market for glass fibre reinforced plastic, polyamide, injection moulded</data>
+  <data key="d5">kilogram</data>
+  <data key="d6">GLO</data>
+  <data key="d7">cutoff391</data>
+  <data key="d8">technosphere</data>
+  <data key="d9">True</data>
+  <data key="d10">orange</data>
+</edge>
+<edge source="market for carbon fibre reinforced plastic, injection moulded" target="AFRP">
+  <data key="d4">market for carbon fibre reinforced plastic, injection moulded</data>
+  <data key="d5">kilogram</data>
+  <data key="d6">GLO</data>
+  <data key="d7">cutoff391</data>
+  <data key="d8">technosphere</data>
+  <data key="d9">True</data>
+  <data key="d10">orange</data>
+</edge>
+</graph></graphml>

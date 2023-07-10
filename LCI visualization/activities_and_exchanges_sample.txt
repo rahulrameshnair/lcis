@@ -1,0 +1,64 @@
+
+ activity details 
+ {'code': 'a835e7d64a65472db62efc6458d76afe_copy1', 'location': 'GLO', 'reference product': 'CFRP', 'type': 'process', 'unit': 'kilogram', 'worksheet name': 'materials', 'name': 'CFRP production', 'database': 'materials2'} activity details end 
+
+{'name': 'CFRP', 'amount': 1, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'production', 'reference product': 'CFRP', 'input': ('materials2', 'a835e7d64a65472db62efc6458d76afe_copy1'), 'output': ('materials2', 'a835e7d64a65472db62efc6458d76afe_copy1')}
+{'name': 'market for carbon fibre reinforced plastic, injection moulded', 'amount': 0.5, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'carbon fibre reinforced plastic, injection moulded', 'input': ('cutoff391', 'c52fd3aad9cb8921c70e21a0206414f6'), 'output': ('materials2', 'a835e7d64a65472db62efc6458d76afe_copy1')}
+
+ activity details 
+ {'database': 'materials2', 'code': '96b1a22f191244f698dafeef365cae5e', 'location': 'GLO', 'name': 'Char production', 'reference product': 'Biochar', 'unit': 'unit', 'type': 'process'} activity details end 
+
+{'output': ('materials2', '96b1a22f191244f698dafeef365cae5e'), 'input': ('materials2', '96b1a22f191244f698dafeef365cae5e'), 'amount': 1, 'type': 'production'}
+{'output': ('materials2', '96b1a22f191244f698dafeef365cae5e'), 'input': ('cutoff391', 'c26f22b3ec08160c0d495cc1a34dc816'), 'amount': 1, 'type': 'technosphere'}
+
+ activity details 
+ {'code': 'edad4946ef5a4ed78c3c9206735edc5a_copy1', 'location': 'GLO', 'reference product': 'Ni-based Superalloy', 'type': 'process', 'unit': 'kilogram', 'worksheet name': 'materials', 'name': 'Ni-based Superalloy production', 'database': 'materials2'} activity details end 
+
+{'name': 'Ni-based Superalloy', 'amount': 1, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'production', 'reference product': 'Ni-based Superalloy', 'input': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for aluminium, primary, ingot', 'amount': 0.004, 'database': 'cutoff391', 'location': 'IAI Area, EU27 & EFTA', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'aluminium, primary, ingot', 'input': ('cutoff391', '823822c452c6258a6ce360939935f26f'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for carbon black', 'amount': 0.004, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'carbon black', 'input': ('cutoff391', 'd159da75569807fa5869d3a82f5de121'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for chromium', 'amount': 0.186, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'chromium', 'input': ('cutoff391', '3de11ec49c2a8ff3ec0008303b75d475'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for iron pellet', 'amount': 0.185, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'iron pellet', 'input': ('cutoff391', '0409a01e5c245a0dc2ae585a86d38efc'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for manganese', 'amount': 0.002, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'manganese', 'input': ('cutoff391', '156367140fa6ac6c4903900b7a8e8149'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for molybdenum', 'amount': 0.031, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'molybdenum', 'input': ('cutoff391', '0f23c62795fba0e3169d798d7048a26f'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for nickel, class 1', 'amount': 0.576, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'nickel, class 1', 'input': ('cutoff391', '4347b9665d0aea69c7956fa09ac8db07'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for silicon, metallurgical grade', 'amount': 0.003, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'silicon, metallurgical grade', 'input': ('cutoff391', '1ffe09506f70be4dcd98071865e8a549'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'name': 'market for titanium', 'amount': 0.009, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'titanium', 'input': ('cutoff391', 'cbba1d5c4658c85a617f5173516cc257'), 'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1')}
+{'output': ('materials2', 'edad4946ef5a4ed78c3c9206735edc5a_copy1'), 'input': ('biosphere3', '49c594c6-b6a8-42a3-95c5-cca812fda80b'), 'amount': 1, 'type': 'biosphere'}
+
+ activity details 
+ {'code': 'd7163e2b875a420995749f0eed63de0d_copy1', 'location': 'GLO', 'reference product': 'High-Strength Steel', 'type': 'process', 'unit': 'kilogram', 'worksheet name': 'materials', 'name': 'High-Strength Steel', 'database': 'materials2'} activity details end 
+
+{'name': 'High-Strength Steel', 'amount': 1, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'production', 'reference product': 'High-Strength Steel', 'input': ('materials2', 'd7163e2b875a420995749f0eed63de0d_copy1'), 'output': ('materials2', 'd7163e2b875a420995749f0eed63de0d_copy1')}
+{'name': 'market for steel, chromium steel 18/8', 'amount': 1, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'steel, chromium steel 18/8', 'input': ('cutoff391', '6af7fc101112f29fb43953d562902932'), 'output': ('materials2', 'd7163e2b875a420995749f0eed63de0d_copy1')}
+
+ activity details 
+ {'code': 'fab05c17548a44a0a7852635c994794b', 'location': 'GLO', 'reference product': 'AFRP', 'type': 'process', 'unit': 'kilogram', 'worksheet name': 'materials', 'name': 'AFRP production', 'database': 'materials2'} activity details end 
+
+{'name': 'AFRP', 'amount': 1, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'production', 'reference product': 'AFRP', 'input': ('materials2', 'fab05c17548a44a0a7852635c994794b'), 'output': ('materials2', 'fab05c17548a44a0a7852635c994794b')}
+{'name': 'market for carbon fibre reinforced plastic, injection moulded', 'amount': 1, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'carbon fibre reinforced plastic, injection moulded', 'input': ('cutoff391', 'c52fd3aad9cb8921c70e21a0206414f6'), 'output': ('materials2', 'fab05c17548a44a0a7852635c994794b')}
+{'output': ('materials2', 'fab05c17548a44a0a7852635c994794b'), 'input': ('biosphere3', 'f9749677-9c9f-4678-ab55-c607dfdc2cb9'), 'amount': 1, 'type': 'biosphere'}
+
+ activity details 
+ {'database': 'materials2', 'code': '421695138c4741af8deeb228ed68b13d', 'location': 'GLO', 'name': 'Pyrolytic carbon', 'reference product': 'Pyrolytic carbon', 'unit': 'kilogram', 'type': 'process'} activity details end 
+
+{'output': ('materials2', '421695138c4741af8deeb228ed68b13d'), 'input': ('materials2', '421695138c4741af8deeb228ed68b13d'), 'amount': 0.65, 'type': 'production'}
+{'output': ('materials2', '421695138c4741af8deeb228ed68b13d'), 'input': ('cutoff391', 'e77669e3f0e8d2473070ea895c442edb'), 'amount': 1, 'type': 'technosphere'}
+{'output': ('materials2', '421695138c4741af8deeb228ed68b13d'), 'input': ('biosphere3', 'f9749677-9c9f-4678-ab55-c607dfdc2cb9'), 'amount': 0.35, 'type': 'biosphere'}
+
+ activity details 
+ {'code': '0508a9434cd24602a9e74cdfd0f70e34', 'location': 'GLO', 'reference product': 'Ti64', 'type': 'process', 'unit': 'kilogram', 'worksheet name': 'materials', 'name': 'Ti64 production', 'database': 'materials2'} activity details end 
+
+{'name': 'Ti64', 'amount': 1, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'production', 'reference product': 'Ti64', 'input': ('materials2', '0508a9434cd24602a9e74cdfd0f70e34'), 'output': ('materials2', '0508a9434cd24602a9e74cdfd0f70e34')}
+{'name': 'market for aluminium, primary, ingot', 'amount': 0.06, 'database': 'cutoff391', 'location': 'IAI Area, EU27 & EFTA', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'aluminium, primary, ingot', 'input': ('cutoff391', '823822c452c6258a6ce360939935f26f'), 'output': ('materials2', '0508a9434cd24602a9e74cdfd0f70e34')}
+{'name': 'market for tantalum powder, capacitor-grade', 'amount': 0.04, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'tantalum powder, capacitor-grade', 'input': ('cutoff391', 'e377a106b47e2561933462fdb23f9588'), 'output': ('materials2', '0508a9434cd24602a9e74cdfd0f70e34')}
+{'name': 'market for titanium', 'amount': 0.9, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'titanium', 'input': ('cutoff391', 'cbba1d5c4658c85a617f5173516cc257'), 'output': ('materials2', '0508a9434cd24602a9e74cdfd0f70e34')}
+{'output': ('materials2', '0508a9434cd24602a9e74cdfd0f70e34'), 'input': ('biosphere3', '349b29d1-3e58-4c66-98b9-9d1a076efd2e'), 'amount': 1, 'type': 'biosphere'}
+{'output': ('materials2', '0508a9434cd24602a9e74cdfd0f70e34'), 'input': ('biosphere3', '49c594c6-b6a8-42a3-95c5-cca812fda80b'), 'amount': 1, 'type': 'biosphere'}
+
+ activity details 
+ {'code': 'cd16b5591d9e48f3a3ad7bed69a7f250', 'location': 'GLO', 'reference product': 'GFRP', 'type': 'process', 'unit': 'kilogram', 'worksheet name': 'materials', 'name': 'GFRP production', 'database': 'materials2'} activity details end 
+
+{'name': 'GFRP', 'amount': 1, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'production', 'reference product': 'GFRP', 'input': ('materials2', 'cd16b5591d9e48f3a3ad7bed69a7f250'), 'output': ('materials2', 'cd16b5591d9e48f3a3ad7bed69a7f250')}
+{'name': 'market for glass fibre reinforced plastic, polyamide, injection moulded', 'amount': 1, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'reference product': 'glass fibre reinforced plastic, polyamide, injection moulded', 'input': ('cutoff391', 'baf9fd46b7a5fc32fc070e2c1aa4674c'), 'output': ('materials2', 'cd16b5591d9e48f3a3ad7bed69a7f250')}
+{'output': ('materials2', 'cd16b5591d9e48f3a3ad7bed69a7f250'), 'input': ('biosphere3', '50f528ca-45e7-42d0-b399-998ea63ddabf'), 'amount': 1, 'type': 'biosphere'}

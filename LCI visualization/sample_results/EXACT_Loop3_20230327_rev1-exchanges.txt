@@ -1,0 +1,316 @@
+Activity: {'code': 'a7e818b2ae7a41078a12949fa2c20b15', 'location': 'GLO', 'reference product': 'Wing Structure', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Wing Structure', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Wing Structure', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Wing Structure', 'input': ('EXACT_Loop3_20230327_rev1', 'a7e818b2ae7a41078a12949fa2c20b15'), 'output': ('EXACT_Loop3_20230327_rev1', 'a7e818b2ae7a41078a12949fa2c20b15')} 
+
+
+
+Activity: {'code': 'e77dc1be783f4a8ea18371d8765913d9', 'location': 'GLO', 'reference product': 'D250-TF-2040', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'D250-TF-2040', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'D250-TF-2040', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'D250-TF-2040', 'input': ('EXACT_Loop3_20230327_rev1', 'e77dc1be783f4a8ea18371d8765913d9'), 'output': ('EXACT_Loop3_20230327_rev1', 'e77dc1be783f4a8ea18371d8765913d9')} 
+
+	 Exchange {'name': 'Engine TF', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Engine TF', 'input': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993'), 'output': ('EXACT_Loop3_20230327_rev1', 'e77dc1be783f4a8ea18371d8765913d9')} 
+
+	 Exchange {'name': 'Furnishing', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Furnishing', 'input': ('EXACT_Loop3_20230327_rev1', '17f1b9ea8b804b25a7f29fe78856d342'), 'output': ('EXACT_Loop3_20230327_rev1', 'e77dc1be783f4a8ea18371d8765913d9')} 
+
+	 Exchange {'name': 'HTP', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'HTP', 'input': ('EXACT_Loop3_20230327_rev1', '3ea1002e237746fa95c99c3ceafbd0a7'), 'output': ('EXACT_Loop3_20230327_rev1', 'e77dc1be783f4a8ea18371d8765913d9')} 
+
+	 Exchange {'name': 'Operator Items', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Operator Items', 'input': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2'), 'output': ('EXACT_Loop3_20230327_rev1', 'e77dc1be783f4a8ea18371d8765913d9')} 
+
+
+
+Activity: {'code': '853e9d81702746fdaa76dd9a473a545f', 'location': 'GLO', 'reference product': 'VTP', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'VTP', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'VTP', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'VTP', 'input': ('EXACT_Loop3_20230327_rev1', '853e9d81702746fdaa76dd9a473a545f'), 'output': ('EXACT_Loop3_20230327_rev1', '853e9d81702746fdaa76dd9a473a545f')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 342.7172808, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'vtp_mass', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', '853e9d81702746fdaa76dd9a473a545f')} 
+
+
+
+Activity: {'code': 'bc31f7e40357477693dfcbf6f694bc53', 'location': 'GLO', 'reference product': 'Passenger Seats', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Passenger Seats', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Passenger Seats', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Passenger Seats', 'input': ('EXACT_Loop3_20230327_rev1', 'bc31f7e40357477693dfcbf6f694bc53'), 'output': ('EXACT_Loop3_20230327_rev1', 'bc31f7e40357477693dfcbf6f694bc53')} 
+
+	 Exchange {'name': 'market for aluminium, primary, ingot', 'amount': 1501.7224725, 'database': 'cutoff391', 'location': 'IAI Area, EU27 & EFTA', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mPassengerSeats*0.5', 'original_amount': 0.5, 'reference product': 'aluminium, primary, ingot', 'input': ('cutoff391', '823822c452c6258a6ce360939935f26f'), 'output': ('EXACT_Loop3_20230327_rev1', 'bc31f7e40357477693dfcbf6f694bc53')} 
+
+	 Exchange {'name': 'market for fibre, polyester', 'amount': 600.6889890000001, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mPassengerSeats*0.2', 'original_amount': 0.2, 'reference product': 'fibre, polyester', 'input': ('cutoff391', 'a09e2b3f43dab96cacc1dd4bab15e737'), 'output': ('EXACT_Loop3_20230327_rev1', 'bc31f7e40357477693dfcbf6f694bc53')} 
+
+	 Exchange {'name': 'market for polyurethane, flexible foam', 'amount': 901.0334835, 'database': 'cutoff391', 'location': 'RER', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mPassengerSeats*0.3', 'original_amount': 0.3, 'reference product': 'polyurethane, flexible foam', 'input': ('cutoff391', '0af5c10411f8289b760244dab4ae2f44'), 'output': ('EXACT_Loop3_20230327_rev1', 'bc31f7e40357477693dfcbf6f694bc53')} 
+
+
+
+Activity: {'code': '930e593ac438413d85cb3672edecfdb8', 'location': 'GLO', 'reference product': 'Fixed Trailing Edge', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Fixed Trailing Edge', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Fixed Trailing Edge', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Fixed Trailing Edge', 'input': ('EXACT_Loop3_20230327_rev1', '930e593ac438413d85cb3672edecfdb8'), 'output': ('EXACT_Loop3_20230327_rev1', '930e593ac438413d85cb3672edecfdb8')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 891.574845, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mFixedTrailingEdges', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', '930e593ac438413d85cb3672edecfdb8')} 
+
+
+
+Activity: {'code': 'e03ff7de602043d984f4d84e2cbf6f0b', 'location': 'GLO', 'reference product': 'Unusable Fuel', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Unusable Fuel', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Unusable Fuel', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Unusable Fuel', 'input': ('EXACT_Loop3_20230327_rev1', 'e03ff7de602043d984f4d84e2cbf6f0b'), 'output': ('EXACT_Loop3_20230327_rev1', 'e03ff7de602043d984f4d84e2cbf6f0b')} 
+
+
+
+Activity: {'code': 'cfafb65834944b3d928de37e89e32300', 'location': 'GLO', 'reference product': 'Seat Electronic System', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Seat Electronic System', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Seat Electronic System', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Seat Electronic System', 'input': ('EXACT_Loop3_20230327_rev1', 'cfafb65834944b3d928de37e89e32300'), 'output': ('EXACT_Loop3_20230327_rev1', 'cfafb65834944b3d928de37e89e32300')} 
+
+	 Exchange {'name': 'market for copper-rich materials', 'amount': 0, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mSeatElectronicSystem*0.5', 'original_amount': 0.5, 'reference product': 'copper-rich materials', 'input': ('cutoff391', '6d98d1addce810689dac1580164233ec'), 'output': ('EXACT_Loop3_20230327_rev1', 'cfafb65834944b3d928de37e89e32300')} 
+
+	 Exchange {'name': 'market for polypropylene, granulate', 'amount': 0, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mSeatElectronicSystem*0.5', 'original_amount': 0.5, 'reference product': 'polypropylene, granulate', 'input': ('cutoff391', '61863071bd168004eb9af9df563661b5'), 'output': ('EXACT_Loop3_20230327_rev1', 'cfafb65834944b3d928de37e89e32300')} 
+
+
+
+Activity: {'code': '4bed0e4cd4244cb1aeba8da52e7515ae', 'location': 'GLO', 'reference product': 'Catering', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Catering', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Catering', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Catering', 'input': ('EXACT_Loop3_20230327_rev1', '4bed0e4cd4244cb1aeba8da52e7515ae'), 'output': ('EXACT_Loop3_20230327_rev1', '4bed0e4cd4244cb1aeba8da52e7515ae')} 
+
+
+
+Activity: {'code': '118948e8371a48a4801d2c0bfefad346', 'location': 'GLO', 'reference product': 'Crew', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Crew', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Crew', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Crew', 'input': ('EXACT_Loop3_20230327_rev1', '118948e8371a48a4801d2c0bfefad346'), 'output': ('EXACT_Loop3_20230327_rev1', '118948e8371a48a4801d2c0bfefad346')} 
+
+
+
+Activity: {'code': 'e8a70e98e4e340198085dc76c246d1a3', 'location': 'GLO', 'reference product': 'Aircraft Documents', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Aircraft Documents', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Aircraft Documents', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Aircraft Documents', 'input': ('EXACT_Loop3_20230327_rev1', 'e8a70e98e4e340198085dc76c246d1a3'), 'output': ('EXACT_Loop3_20230327_rev1', 'e8a70e98e4e340198085dc76c246d1a3')} 
+
+	 Exchange {'name': 'market for printed paper', 'amount': 19.021818, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mAircraftDocuments', 'original_amount': 1, 'reference product': 'printed paper', 'input': ('cutoff391', '97c658b5f9714d98b4806d327bcce2c9'), 'output': ('EXACT_Loop3_20230327_rev1', 'e8a70e98e4e340198085dc76c246d1a3')} 
+
+
+
+Activity: {'code': 'c9af9d27155e4f858ff3d50e7744348f', 'location': 'GLO', 'reference product': 'Additional Center Tank', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Additional Center Tank', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Additional Center Tank', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Additional Center Tank', 'input': ('EXACT_Loop3_20230327_rev1', 'c9af9d27155e4f858ff3d50e7744348f'), 'output': ('EXACT_Loop3_20230327_rev1', 'c9af9d27155e4f858ff3d50e7744348f')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 0, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mAdditionalCenterTank', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'c9af9d27155e4f858ff3d50e7744348f')} 
+
+
+
+Activity: {'code': 'ba2ad48f6c9141c0ba59ec798e97a47e', 'location': 'GLO', 'reference product': 'Wing Tips', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Wing Tips', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Wing Tips', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Wing Tips', 'input': ('EXACT_Loop3_20230327_rev1', 'ba2ad48f6c9141c0ba59ec798e97a47e'), 'output': ('EXACT_Loop3_20230327_rev1', 'ba2ad48f6c9141c0ba59ec798e97a47e')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 15.591228, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mWingTips', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'ba2ad48f6c9141c0ba59ec798e97a47e')} 
+
+
+
+Activity: {'code': '29e9bfada84040b0a1c13f2e7ebf071e', 'location': 'GLO', 'reference product': 'Crew Rest', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Crew Rest', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Crew Rest', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Crew Rest', 'input': ('EXACT_Loop3_20230327_rev1', '29e9bfada84040b0a1c13f2e7ebf071e'), 'output': ('EXACT_Loop3_20230327_rev1', '29e9bfada84040b0a1c13f2e7ebf071e')} 
+
+	 Exchange {'name': 'GFRP', 'amount': 0, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mCrewRest', 'original_amount': 1, 'reference product': 'GFRP', 'input': ('materials', 'cd16b5591d9e48f3a3ad7bed69a7f250'), 'output': ('EXACT_Loop3_20230327_rev1', '29e9bfada84040b0a1c13f2e7ebf071e')} 
+
+
+
+Activity: {'code': 'ddf121703e6b45b9a7f22fd2ec3c9d13', 'location': 'GLO', 'reference product': 'Fluid Toilets', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Fluid Toilets', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Fluid Toilets', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Fluid Toilets', 'input': ('EXACT_Loop3_20230327_rev1', 'ddf121703e6b45b9a7f22fd2ec3c9d13'), 'output': ('EXACT_Loop3_20230327_rev1', 'ddf121703e6b45b9a7f22fd2ec3c9d13')} 
+
+	 Exchange {'name': 'market for tap water', 'amount': 8.610838, 'database': 'cutoff391', 'location': 'Europe without Switzerland', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mFluidToilets', 'original_amount': 1, 'reference product': 'tap water', 'input': ('cutoff391', '4fe1f2dae4830593ee2d608cb2d5ff2c'), 'output': ('EXACT_Loop3_20230327_rev1', 'ddf121703e6b45b9a7f22fd2ec3c9d13')} 
+
+
+
+Activity: {'code': 'ce47d50ad33146629655857f9cd54430', 'location': 'GLO', 'reference product': 'Water', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Water', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Water', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Water', 'input': ('EXACT_Loop3_20230327_rev1', 'ce47d50ad33146629655857f9cd54430'), 'output': ('EXACT_Loop3_20230327_rev1', 'ce47d50ad33146629655857f9cd54430')} 
+
+	 Exchange {'name': 'market for tap water', 'amount': 163.100537, 'database': 'cutoff391', 'location': 'Europe without Switzerland', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mWater', 'original_amount': 1, 'reference product': 'tap water', 'input': ('cutoff391', '4fe1f2dae4830593ee2d608cb2d5ff2c'), 'output': ('EXACT_Loop3_20230327_rev1', 'ce47d50ad33146629655857f9cd54430')} 
+
+
+
+Activity: {'code': 'bb15203deb4c4b8d8c64f1edee7f1c12', 'location': 'GLO', 'reference product': 'Landing Gear Supports', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Landing Gear Supports', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Landing Gear Supports', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Landing Gear Supports', 'input': ('EXACT_Loop3_20230327_rev1', 'bb15203deb4c4b8d8c64f1edee7f1c12'), 'output': ('EXACT_Loop3_20230327_rev1', 'bb15203deb4c4b8d8c64f1edee7f1c12')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 0, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mLandingGearSupports', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'bb15203deb4c4b8d8c64f1edee7f1c12')} 
+
+
+
+Activity: {'code': '25a465d0c900421894df5e28a80fe411', 'location': 'GLO', 'reference product': 'Wing Miscellaneous', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Wing Miscellaneous', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Wing Miscellaneous', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Wing Miscellaneous', 'input': ('EXACT_Loop3_20230327_rev1', '25a465d0c900421894df5e28a80fe411'), 'output': ('EXACT_Loop3_20230327_rev1', '25a465d0c900421894df5e28a80fe411')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 330.68747, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mWingMiscellaneous', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', '25a465d0c900421894df5e28a80fe411')} 
+
+
+
+Activity: {'code': '17f1b9ea8b804b25a7f29fe78856d342', 'location': 'GLO', 'reference product': 'Furnishing', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Furnishing', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Furnishing', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Furnishing', 'input': ('EXACT_Loop3_20230327_rev1', '17f1b9ea8b804b25a7f29fe78856d342'), 'output': ('EXACT_Loop3_20230327_rev1', '17f1b9ea8b804b25a7f29fe78856d342')} 
+
+	 Exchange {'name': 'GFRP', 'amount': 1194.3641694, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'furnishing_mass * 0.3', 'original_amount': 1, 'reference product': 'GFRP', 'input': ('materials', 'cd16b5591d9e48f3a3ad7bed69a7f250'), 'output': ('EXACT_Loop3_20230327_rev1', '17f1b9ea8b804b25a7f29fe78856d342')} 
+
+	 Exchange {'name': 'market for fibre, viscose', 'amount': 1592.4855592, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'furnishing_mass * 0.4', 'original_amount': 1, 'reference product': 'fibre, viscose', 'input': ('cutoff391', 'e518358847b8933de9e4e6118ed76860'), 'output': ('EXACT_Loop3_20230327_rev1', '17f1b9ea8b804b25a7f29fe78856d342')} 
+
+	 Exchange {'name': 'market for polypropylene, granulate', 'amount': 1194.3641694, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'furnishing_mass*0.3', 'original_amount': 1, 'reference product': 'polypropylene, granulate', 'input': ('cutoff391', '61863071bd168004eb9af9df563661b5'), 'output': ('EXACT_Loop3_20230327_rev1', '17f1b9ea8b804b25a7f29fe78856d342')} 
+
+
+
+Activity: {'code': '19e4322cddd34b149b1dbf769049b2a8', 'location': 'GLO', 'reference product': 'Pylon', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Pylon', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Pylon', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Pylon', 'input': ('EXACT_Loop3_20230327_rev1', '19e4322cddd34b149b1dbf769049b2a8'), 'output': ('EXACT_Loop3_20230327_rev1', '19e4322cddd34b149b1dbf769049b2a8')} 
+
+	 Exchange {'name': 'Ti64', 'amount': 0, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'enginePylon_mass', 'original_amount': 1, 'reference product': 'Ti64', 'input': ('materials', '0508a9434cd24602a9e74cdfd0f70e34'), 'output': ('EXACT_Loop3_20230327_rev1', '19e4322cddd34b149b1dbf769049b2a8')} 
+
+
+
+Activity: {'code': 'cab877bce0c44afb962a902d0a19ae15', 'location': 'GLO', 'reference product': 'Nacelle', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Nacelle', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Nacelle', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Nacelle', 'input': ('EXACT_Loop3_20230327_rev1', 'cab877bce0c44afb962a902d0a19ae15'), 'output': ('EXACT_Loop3_20230327_rev1', 'cab877bce0c44afb962a902d0a19ae15')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 718.177, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'engineNacelle_mass', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'cab877bce0c44afb962a902d0a19ae15')} 
+
+
+
+Activity: {'code': '2141f178c5bb47d5bafe3b4214d23793', 'location': 'GLO', 'reference product': 'Fan', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Fan', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Fan', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Fan', 'input': ('EXACT_Loop3_20230327_rev1', '2141f178c5bb47d5bafe3b4214d23793'), 'output': ('EXACT_Loop3_20230327_rev1', '2141f178c5bb47d5bafe3b4214d23793')} 
+
+	 Exchange {'name': 'Al 2024', 'amount': 357.541, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'fan_mass*0.5', 'original_amount': 0.5, 'reference product': 'Al 2024', 'input': ('materials', '31f1a80380444c41ad2b1b1cceb9d5d5'), 'output': ('EXACT_Loop3_20230327_rev1', '2141f178c5bb47d5bafe3b4214d23793')} 
+
+	 Exchange {'name': 'Ti64', 'amount': 357.541, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'fan_mass*0.5', 'original_amount': 0.5, 'reference product': 'Ti64', 'input': ('materials', '0508a9434cd24602a9e74cdfd0f70e34'), 'output': ('EXACT_Loop3_20230327_rev1', '2141f178c5bb47d5bafe3b4214d23793')} 
+
+
+
+Activity: {'code': 'ac2d592f154945e28837b20a378f5ae2', 'location': 'GLO', 'reference product': 'Gas Turbine', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Gas Turbine', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Gas Turbine', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Gas Turbine', 'input': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2'), 'output': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2')} 
+
+	 Exchange {'name': 'Al 2024', 'amount': 425.972, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'gasTurbine_mass*0.1', 'original_amount': 0.1, 'reference product': 'Al 2024', 'input': ('materials', '31f1a80380444c41ad2b1b1cceb9d5d5'), 'output': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 212.986, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'gasTurbine_mass*0.05', 'original_amount': 0.05, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2')} 
+
+	 Exchange {'name': 'High-Strength Steel', 'amount': 425.972, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'gasTurbine_mass*0.1', 'original_amount': 0.1, 'reference product': 'High-Strength Steel', 'input': ('materials', 'd7163e2b875a420995749f0eed63de0d'), 'output': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2')} 
+
+	 Exchange {'name': 'Ni-based Superalloy', 'amount': 2129.86, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'gasTurbine_mass*0.5', 'original_amount': 0.5, 'reference product': 'Ni-based Superalloy', 'input': ('materials', 'edad4946ef5a4ed78c3c9206735edc5a'), 'output': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2')} 
+
+	 Exchange {'name': 'Ti64', 'amount': 1064.93, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'gasTurbine_mass*0.25', 'original_amount': 0.25, 'reference product': 'Ti64', 'input': ('materials', '0508a9434cd24602a9e74cdfd0f70e34'), 'output': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2')} 
+
+
+
+Activity: {'code': 'a7eac88acb884e5c9d132e5383e4ef4a', 'location': 'GLO', 'reference product': 'Oil', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Oil', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Oil', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Oil', 'input': ('EXACT_Loop3_20230327_rev1', 'a7eac88acb884e5c9d132e5383e4ef4a'), 'output': ('EXACT_Loop3_20230327_rev1', 'a7eac88acb884e5c9d132e5383e4ef4a')} 
+
+	 Exchange {'name': 'market for base oil', 'amount': 58.18944, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mOil', 'original_amount': 1, 'reference product': 'base oil', 'input': ('cutoff391', 'a21a8797c3530c968b313a6656c9481f'), 'output': ('EXACT_Loop3_20230327_rev1', 'a7eac88acb884e5c9d132e5383e4ef4a')} 
+
+
+
+Activity: {'code': 'b054fa22e1844eae836175a27db53993', 'location': 'GLO', 'reference product': 'Engine TF', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Engine TF', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Engine TF', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Engine TF', 'input': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993'), 'output': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993')} 
+
+	 Exchange {'name': 'Engine Systems', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Engine Systems', 'input': ('EXACT_Loop3_20230327_rev1', 'a54d4bf5d142483190d6e3a496a210ad'), 'output': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993')} 
+
+	 Exchange {'name': 'Fan', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Fan', 'input': ('EXACT_Loop3_20230327_rev1', '2141f178c5bb47d5bafe3b4214d23793'), 'output': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993')} 
+
+	 Exchange {'name': 'Gas Turbine', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Gas Turbine', 'input': ('EXACT_Loop3_20230327_rev1', 'ac2d592f154945e28837b20a378f5ae2'), 'output': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993')} 
+
+	 Exchange {'name': 'Gear Box', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Gear Box', 'input': ('EXACT_Loop3_20230327_rev1', 'db652d6aadfc48a78674b1e06a8f8c0b'), 'output': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993')} 
+
+	 Exchange {'name': 'Nacelle', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Nacelle', 'input': ('EXACT_Loop3_20230327_rev1', 'cab877bce0c44afb962a902d0a19ae15'), 'output': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993')} 
+
+	 Exchange {'name': 'Pylon', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Pylon', 'input': ('EXACT_Loop3_20230327_rev1', '19e4322cddd34b149b1dbf769049b2a8'), 'output': ('EXACT_Loop3_20230327_rev1', 'b054fa22e1844eae836175a27db53993')} 
+
+
+
+Activity: {'code': 'ce7c7d6d539a491da8df6333df083f20', 'location': 'GLO', 'reference product': 'Foldable Wing Mechanism', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Foldable Wing Mechanism', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Foldable Wing Mechanism', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Foldable Wing Mechanism', 'input': ('EXACT_Loop3_20230327_rev1', 'ce7c7d6d539a491da8df6333df083f20'), 'output': ('EXACT_Loop3_20230327_rev1', 'ce7c7d6d539a491da8df6333df083f20')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 337.000789, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mFoldableWingMechanism', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'ce7c7d6d539a491da8df6333df083f20')} 
+
+
+
+Activity: {'code': '0743056cb1794f55bcd5488c78af56d2', 'location': 'GLO', 'reference product': 'Operator Items', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Operator Items', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Operator Items', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Operator Items', 'input': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Additional Center Tank', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Additional Center Tank', 'input': ('EXACT_Loop3_20230327_rev1', 'c9af9d27155e4f858ff3d50e7744348f'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Aircraft Documents', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Aircraft Documents', 'input': ('EXACT_Loop3_20230327_rev1', 'e8a70e98e4e340198085dc76c246d1a3'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Catering', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Catering', 'input': ('EXACT_Loop3_20230327_rev1', '4bed0e4cd4244cb1aeba8da52e7515ae'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Crew', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Crew', 'input': ('EXACT_Loop3_20230327_rev1', '118948e8371a48a4801d2c0bfefad346'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Crew Rest', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Crew Rest', 'input': ('EXACT_Loop3_20230327_rev1', '29e9bfada84040b0a1c13f2e7ebf071e'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Emergency Equipment', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Emergency Equipment', 'input': ('EXACT_Loop3_20230327_rev1', '9a50e595edfb4d7fbd9a44cebf7a39d9'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Fluid Toilets', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Fluid Toilets', 'input': ('EXACT_Loop3_20230327_rev1', 'ddf121703e6b45b9a7f22fd2ec3c9d13'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Galley Structure', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Galley Structure', 'input': ('EXACT_Loop3_20230327_rev1', '204ae49d387149eea1296842e2315cf9'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Oil', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Oil', 'input': ('EXACT_Loop3_20230327_rev1', 'a7eac88acb884e5c9d132e5383e4ef4a'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Passenger Seats', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Passenger Seats', 'input': ('EXACT_Loop3_20230327_rev1', 'bc31f7e40357477693dfcbf6f694bc53'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Seat Electronic System', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Seat Electronic System', 'input': ('EXACT_Loop3_20230327_rev1', 'cfafb65834944b3d928de37e89e32300'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Unusable Fuel', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Unusable Fuel', 'input': ('EXACT_Loop3_20230327_rev1', 'e03ff7de602043d984f4d84e2cbf6f0b'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+	 Exchange {'name': 'Water', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'technosphere', 'reference product': 'Water', 'input': ('EXACT_Loop3_20230327_rev1', 'ce47d50ad33146629655857f9cd54430'), 'output': ('EXACT_Loop3_20230327_rev1', '0743056cb1794f55bcd5488c78af56d2')} 
+
+
+
+Activity: {'code': 'a54d4bf5d142483190d6e3a496a210ad', 'location': 'GLO', 'reference product': 'Engine Systems', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Engine Systems', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Engine Systems', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Engine Systems', 'input': ('EXACT_Loop3_20230327_rev1', 'a54d4bf5d142483190d6e3a496a210ad'), 'output': ('EXACT_Loop3_20230327_rev1', 'a54d4bf5d142483190d6e3a496a210ad')} 
+
+	 Exchange {'name': 'Al 2024', 'amount': 274.53, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'engineSystems_mass', 'original_amount': 1, 'reference product': 'Al 2024', 'input': ('materials', '31f1a80380444c41ad2b1b1cceb9d5d5'), 'output': ('EXACT_Loop3_20230327_rev1', 'a54d4bf5d142483190d6e3a496a210ad')} 
+
+
+
+Activity: {'code': 'f57855e602bf45d68c8fd15f67a0b2d4', 'location': 'GLO', 'reference product': 'Movable Leading Edge', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Movable Leading Edge', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Movable Leading Edge', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Movable Leading Edge', 'input': ('EXACT_Loop3_20230327_rev1', 'f57855e602bf45d68c8fd15f67a0b2d4'), 'output': ('EXACT_Loop3_20230327_rev1', 'f57855e602bf45d68c8fd15f67a0b2d4')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 404.56725, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mMovableLeadingEdge', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'f57855e602bf45d68c8fd15f67a0b2d4')} 
+
+
+
+Activity: {'code': '204ae49d387149eea1296842e2315cf9', 'location': 'GLO', 'reference product': 'Galley Structure', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Galley Structure', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Galley Structure', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Galley Structure', 'input': ('EXACT_Loop3_20230327_rev1', '204ae49d387149eea1296842e2315cf9'), 'output': ('EXACT_Loop3_20230327_rev1', '204ae49d387149eea1296842e2315cf9')} 
+
+	 Exchange {'name': 'GFRP', 'amount': 853.212708, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mGalleyStructure', 'original_amount': 1, 'reference product': 'GFRP', 'input': ('materials', 'cd16b5591d9e48f3a3ad7bed69a7f250'), 'output': ('EXACT_Loop3_20230327_rev1', '204ae49d387149eea1296842e2315cf9')} 
+
+
+
+Activity: {'code': '3ea1002e237746fa95c99c3ceafbd0a7', 'location': 'GLO', 'reference product': 'HTP', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'HTP', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'HTP', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'HTP', 'input': ('EXACT_Loop3_20230327_rev1', '3ea1002e237746fa95c99c3ceafbd0a7'), 'output': ('EXACT_Loop3_20230327_rev1', '3ea1002e237746fa95c99c3ceafbd0a7')} 
+
+
+
+Activity: {'code': 'db652d6aadfc48a78674b1e06a8f8c0b', 'location': 'GLO', 'reference product': 'Gear Box', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Gear Box', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Gear Box', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Gear Box', 'input': ('EXACT_Loop3_20230327_rev1', 'db652d6aadfc48a78674b1e06a8f8c0b'), 'output': ('EXACT_Loop3_20230327_rev1', 'db652d6aadfc48a78674b1e06a8f8c0b')} 
+
+	 Exchange {'name': 'High-Strength Steel', 'amount': 373.707, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'gearbox_mass', 'original_amount': 1, 'reference product': 'High-Strength Steel', 'input': ('materials', 'd7163e2b875a420995749f0eed63de0d'), 'output': ('EXACT_Loop3_20230327_rev1', 'db652d6aadfc48a78674b1e06a8f8c0b')} 
+
+
+
+Activity: {'code': 'f8ade7c6a664406bae57235ae3734432', 'location': 'GLO', 'reference product': 'Fixed Leading Edge', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Fixed Leading Edge', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Fixed Leading Edge', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Fixed Leading Edge', 'input': ('EXACT_Loop3_20230327_rev1', 'f8ade7c6a664406bae57235ae3734432'), 'output': ('EXACT_Loop3_20230327_rev1', 'f8ade7c6a664406bae57235ae3734432')} 
+
+	 Exchange {'name': 'CFRP', 'amount': 366.266257, 'database': 'materials', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mFixedLeadingEdges', 'original_amount': 1, 'reference product': 'CFRP', 'input': ('materials', 'a835e7d64a65472db62efc6458d76afe'), 'output': ('EXACT_Loop3_20230327_rev1', 'f8ade7c6a664406bae57235ae3734432')} 
+
+
+
+Activity: {'code': '9a50e595edfb4d7fbd9a44cebf7a39d9', 'location': 'GLO', 'reference product': 'Emergency Equipment', 'type': 'process', 'unit': 'unit', 'worksheet name': 'EXACT_Loop3_20230327_rev1', 'name': 'Emergency Equipment', 'database': 'EXACT_Loop3_20230327_rev1'} 
+
+	 Exchange {'name': 'Emergency Equipment', 'amount': 1, 'database': 'EXACT_Loop3_20230327_rev1', 'location': 'GLO', 'unit': 'unit', 'type': 'production', 'reference product': 'Emergency Equipment', 'input': ('EXACT_Loop3_20230327_rev1', '9a50e595edfb4d7fbd9a44cebf7a39d9'), 'output': ('EXACT_Loop3_20230327_rev1', '9a50e595edfb4d7fbd9a44cebf7a39d9')} 
+
+	 Exchange {'name': 'market for aluminium, primary, ingot', 'amount': 135.6535945, 'database': 'cutoff391', 'location': 'IAI Area, EU27 & EFTA', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mEmergencyEquipment*0.5', 'original_amount': 0.5, 'reference product': 'aluminium, primary, ingot', 'input': ('cutoff391', '823822c452c6258a6ce360939935f26f'), 'output': ('EXACT_Loop3_20230327_rev1', '9a50e595edfb4d7fbd9a44cebf7a39d9')} 
+
+	 Exchange {'name': 'market for polypropylene, granulate', 'amount': 135.6535945, 'database': 'cutoff391', 'location': 'GLO', 'unit': 'kilogram', 'type': 'technosphere', 'formula': 'mEmergencyEquipment*0.5', 'original_amount': 0.5, 'reference product': 'polypropylene, granulate', 'input': ('cutoff391', '61863071bd168004eb9af9df563661b5'), 'output': ('EXACT_Loop3_20230327_rev1', '9a50e595edfb4d7fbd9a44cebf7a39d9')} 
+
+
+

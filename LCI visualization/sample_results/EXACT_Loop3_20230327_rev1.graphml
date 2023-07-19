@@ -1,0 +1,1284 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="arrows" attr.type="boolean"/>
+<key id="d10" for="edge" attr.name="line_type" attr.type="string"/>
+<key id="d9" for="edge" attr.name="color" attr.type="string"/>
+<key id="d8" for="node" attr.name="amount" attr.type="double"/>
+<key id="d7" for="node" attr.name="width" attr.type="long"/>
+<key id="d6" for="node" attr.name="color" attr.type="string"/>
+<key id="d5" for="node" attr.name="from_database" attr.type="string"/>
+<key id="d4" for="node" attr.name="type" attr.type="string"/>
+<key id="d3" for="node" attr.name="location" attr.type="string"/>
+<key id="d2" for="node" attr.name="unit" attr.type="string"/>
+<key id="d1" for="node" attr.name="amount" attr.type="long"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Activity - D250-TF-2040">
+  <data key="d0">D250-TF-2040</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="D250-TF-2040">
+  <data key="d0">D250-TF-2040</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Engine TF">
+  <data key="d0">Engine TF</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Furnishing">
+  <data key="d0">Furnishing</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="HTP">
+  <data key="d0">HTP</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Operator Items">
+  <data key="d0">Operator Items</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Movable Leading Edge">
+  <data key="d0">Movable Leading Edge</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Movable Leading Edge">
+  <data key="d0">Movable Leading Edge</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="CFRP">
+  <data key="d0">CFRP</data>
+  <data key="d8">337.000789</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">materials</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Wing Tips">
+  <data key="d0">Wing Tips</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Wing Tips">
+  <data key="d0">Wing Tips</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Fluid Toilets">
+  <data key="d0">Fluid Toilets</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Fluid Toilets">
+  <data key="d0">Fluid Toilets</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="tap water">
+  <data key="d0">market for tap water</data>
+  <data key="d8">163.100537</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">Europe without Switzerland</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Wing Miscellaneous">
+  <data key="d0">Wing Miscellaneous</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Wing Miscellaneous">
+  <data key="d0">Wing Miscellaneous</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Gas Turbine">
+  <data key="d0">Gas Turbine</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Gas Turbine">
+  <data key="d0">Gas Turbine</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Al 2024">
+  <data key="d0">Al 2024</data>
+  <data key="d8">274.53</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">materials</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="High-Strength Steel">
+  <data key="d0">High-Strength Steel</data>
+  <data key="d8">373.707</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">materials</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Ni-based Superalloy">
+  <data key="d0">Ni-based Superalloy</data>
+  <data key="d8">2129.86</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">materials</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Ti64">
+  <data key="d0">Ti64</data>
+  <data key="d1">0</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">materials</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Fan">
+  <data key="d0">Fan</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Fan">
+  <data key="d0">Fan</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Fixed Leading Edge">
+  <data key="d0">Fixed Leading Edge</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Fixed Leading Edge">
+  <data key="d0">Fixed Leading Edge</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - VTP">
+  <data key="d0">VTP</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="VTP">
+  <data key="d0">VTP</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Seat Electronic System">
+  <data key="d0">Seat Electronic System</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Seat Electronic System">
+  <data key="d0">Seat Electronic System</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="copper-rich materials">
+  <data key="d0">market for copper-rich materials</data>
+  <data key="d1">0</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="polypropylene, granulate">
+  <data key="d0">market for polypropylene, granulate</data>
+  <data key="d8">135.6535945</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Aircraft Documents">
+  <data key="d0">Aircraft Documents</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Aircraft Documents">
+  <data key="d0">Aircraft Documents</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="printed paper">
+  <data key="d0">market for printed paper</data>
+  <data key="d8">19.021818</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Furnishing">
+  <data key="d0">Furnishing</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="GFRP">
+  <data key="d0">GFRP</data>
+  <data key="d1">0</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">materials</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="fibre, viscose">
+  <data key="d0">market for fibre, viscose</data>
+  <data key="d8">1592.4855592</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Engine TF">
+  <data key="d0">Engine TF</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Engine Systems">
+  <data key="d0">Engine Systems</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Gear Box">
+  <data key="d0">Gear Box</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Nacelle">
+  <data key="d0">Nacelle</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Pylon">
+  <data key="d0">Pylon</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Fixed Trailing Edge">
+  <data key="d0">Fixed Trailing Edge</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Fixed Trailing Edge">
+  <data key="d0">Fixed Trailing Edge</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Nacelle">
+  <data key="d0">Nacelle</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - Wing Structure">
+  <data key="d0">Wing Structure</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Wing Structure">
+  <data key="d0">Wing Structure</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Gear Box">
+  <data key="d0">Gear Box</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - Galley Structure">
+  <data key="d0">Galley Structure</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Galley Structure">
+  <data key="d0">Galley Structure</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Catering">
+  <data key="d0">Catering</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Catering">
+  <data key="d0">Catering</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Crew Rest">
+  <data key="d0">Crew Rest</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Crew Rest">
+  <data key="d0">Crew Rest</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Landing Gear Supports">
+  <data key="d0">Landing Gear Supports</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Landing Gear Supports">
+  <data key="d0">Landing Gear Supports</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Additional Center Tank">
+  <data key="d0">Additional Center Tank</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Additional Center Tank">
+  <data key="d0">Additional Center Tank</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Operator Items">
+  <data key="d0">Operator Items</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Crew">
+  <data key="d0">Crew</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Emergency Equipment">
+  <data key="d0">Emergency Equipment</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Oil">
+  <data key="d0">Oil</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Passenger Seats">
+  <data key="d0">Passenger Seats</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Unusable Fuel">
+  <data key="d0">Unusable Fuel</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Water">
+  <data key="d0">Water</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Unusable Fuel">
+  <data key="d0">Unusable Fuel</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - Pylon">
+  <data key="d0">Pylon</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - HTP">
+  <data key="d0">HTP</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - Foldable Wing Mechanism">
+  <data key="d0">Foldable Wing Mechanism</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Foldable Wing Mechanism">
+  <data key="d0">Foldable Wing Mechanism</data>
+  <data key="d1">1</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">production</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">black</data>
+  <data key="d7">22</data>
+</node>
+<node id="Activity - Engine Systems">
+  <data key="d0">Engine Systems</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - Oil">
+  <data key="d0">Oil</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="base oil">
+  <data key="d0">market for base oil</data>
+  <data key="d8">58.18944</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Emergency Equipment">
+  <data key="d0">Emergency Equipment</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="aluminium, primary, ingot">
+  <data key="d0">market for aluminium, primary, ingot</data>
+  <data key="d8">1501.7224725</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">IAI Area, EU27 &amp; EFTA</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="Activity - Water">
+  <data key="d0">Water</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - Crew">
+  <data key="d0">Crew</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="Activity - Passenger Seats">
+  <data key="d0">Passenger Seats</data>
+  <data key="d1">0</data>
+  <data key="d2">unit</data>
+  <data key="d3">GLO</data>
+  <data key="d4">process</data>
+  <data key="d5">EXACT_Loop3_20230327_rev1</data>
+  <data key="d6">blue</data>
+  <data key="d7">26</data>
+</node>
+<node id="fibre, polyester">
+  <data key="d0">market for fibre, polyester</data>
+  <data key="d8">600.6889890000001</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">GLO</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<node id="polyurethane, flexible foam">
+  <data key="d0">market for polyurethane, flexible foam</data>
+  <data key="d8">901.0334835</data>
+  <data key="d2">kilogram</data>
+  <data key="d3">RER</data>
+  <data key="d4">technosphere</data>
+  <data key="d5">cutoff391</data>
+  <data key="d6">purple</data>
+  <data key="d7">20</data>
+</node>
+<edge source="Activity - D250-TF-2040" target="D250-TF-2040">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Engine TF" target="Activity - D250-TF-2040">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Furnishing" target="Activity - D250-TF-2040">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="HTP" target="Activity - D250-TF-2040">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Operator Items" target="Activity - D250-TF-2040">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Movable Leading Edge" target="Movable Leading Edge">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Movable Leading Edge">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Wing Tips">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Wing Miscellaneous">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Gas Turbine">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Fixed Leading Edge">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - VTP">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Fixed Trailing Edge">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Nacelle">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Landing Gear Supports">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Additional Center Tank">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="CFRP" target="Activity - Foldable Wing Mechanism">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Wing Tips" target="Wing Tips">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Fluid Toilets" target="Fluid Toilets">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Fluid Toilets" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="tap water" target="Activity - Fluid Toilets">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="tap water" target="Activity - Water">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Wing Miscellaneous" target="Wing Miscellaneous">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Gas Turbine" target="Gas Turbine">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Gas Turbine" target="Activity - Engine TF">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Al 2024" target="Activity - Gas Turbine">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Al 2024" target="Activity - Fan">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Al 2024" target="Activity - Engine Systems">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="High-Strength Steel" target="Activity - Gas Turbine">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="High-Strength Steel" target="Activity - Gear Box">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Ni-based Superalloy" target="Activity - Gas Turbine">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Ti64" target="Activity - Gas Turbine">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Ti64" target="Activity - Fan">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Ti64" target="Activity - Pylon">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Fan" target="Fan">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Fan" target="Activity - Engine TF">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Fixed Leading Edge" target="Fixed Leading Edge">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - VTP" target="VTP">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Seat Electronic System" target="Seat Electronic System">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Seat Electronic System" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="copper-rich materials" target="Activity - Seat Electronic System">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="polypropylene, granulate" target="Activity - Seat Electronic System">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="polypropylene, granulate" target="Activity - Furnishing">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="polypropylene, granulate" target="Activity - Emergency Equipment">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Aircraft Documents" target="Aircraft Documents">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Aircraft Documents" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="printed paper" target="Activity - Aircraft Documents">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Furnishing" target="Furnishing">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="GFRP" target="Activity - Furnishing">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="GFRP" target="Activity - Galley Structure">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="GFRP" target="Activity - Crew Rest">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="fibre, viscose" target="Activity - Furnishing">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Engine TF" target="Engine TF">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Engine Systems" target="Activity - Engine TF">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Gear Box" target="Activity - Engine TF">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Nacelle" target="Activity - Engine TF">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Pylon" target="Activity - Engine TF">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Fixed Trailing Edge" target="Fixed Trailing Edge">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Nacelle" target="Nacelle">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Wing Structure" target="Wing Structure">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Gear Box" target="Gear Box">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Galley Structure" target="Galley Structure">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Galley Structure" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Catering" target="Catering">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Catering" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Crew Rest" target="Crew Rest">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Crew Rest" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Landing Gear Supports" target="Landing Gear Supports">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Additional Center Tank" target="Additional Center Tank">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Additional Center Tank" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Operator Items" target="Operator Items">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Crew" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Emergency Equipment" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Oil" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Passenger Seats" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Unusable Fuel" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Water" target="Activity - Operator Items">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Unusable Fuel" target="Unusable Fuel">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Pylon" target="Pylon">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - HTP" target="HTP">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Foldable Wing Mechanism" target="Foldable Wing Mechanism">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Engine Systems" target="Engine Systems">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Oil" target="Oil">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="base oil" target="Activity - Oil">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Emergency Equipment" target="Emergency Equipment">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="aluminium, primary, ingot" target="Activity - Emergency Equipment">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="aluminium, primary, ingot" target="Activity - Passenger Seats">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Water" target="Water">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Crew" target="Crew">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="Activity - Passenger Seats" target="Passenger Seats">
+  <data key="d9">black</data>
+  <data key="d10">Solid</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="fibre, polyester" target="Activity - Passenger Seats">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+<edge source="polyurethane, flexible foam" target="Activity - Passenger Seats">
+  <data key="d9">purple</data>
+  <data key="d10">Dash</data>
+  <data key="d11">True</data>
+</edge>
+</graph></graphml>

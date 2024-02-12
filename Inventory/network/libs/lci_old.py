@@ -2,11 +2,15 @@
 import os, sys
 # Add the parent directory of export to the Python path
 working_dir = os.getcwd()
-print (working_dir)
+parent_dir = os.path.join(os.getcwd(), os.pardir)
+p_parent_dir = os.path.join(parent_dir, os.pardir) 
+print(p_parent_dir)
+sys.path.append(os.path.abspath(p_parent_dir))
+
 
 import bw2data as bw
 from bw2data.parameters import ActivityParameter, DatabaseParameter, ProjectParameter
-from .extract import extract_from_lci as extract
+from .inventory.network.libs import extract
 import pprint
 import networkx as nx
 

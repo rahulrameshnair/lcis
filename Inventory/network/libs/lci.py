@@ -17,7 +17,7 @@ class LCI:
         self.database = bw.Database(database_name)
         self.lci_db_list = []
     
-    def LCI_database_list(self, keys_biosphere, keys_technosphere, keys_production):
+    def database_list(self, keys_biosphere, keys_technosphere, keys_production):
         LCI_database_list = [] #list of dictionaries to store the life cycle inventory
 
         
@@ -98,7 +98,7 @@ class LCI:
         self.lci_db_list = LCI_database_list
         return (LCI_database_list)
     @staticmethod
-    def lci_key_search(node_attributes):
+    def key_search(node_attributes):
         """
         Checks for keys that are present with in the nested node_attributes dictionary (created from the LCI) that contains values with incompatible dataypes (other than str, int, bool, and float).
 
@@ -124,9 +124,16 @@ class LCI:
         return (keys_to_remove, datatypes_keys, key_values_types)
     
     @staticmethod
-    def lci_recursive_search(lcidict_to_search):
-        #Include a generalized recursive search of the lci inventory here rather than in the jupyter notebook [TO-DO]
-        pass
+    def recursive_search(node_details):
+        for key, value in node_details.items():
+            if key == 'categories' and isinstance(value, tuple):
+                node_details[key] = '::'.join(value)
+            if value is None:
+                node_details[key] = 'none'
+            if isinstance(value, dict):
+                LCI.recursive_search(value)
+        return (node_details)
+
 
     @staticmethod
     def network(lci_db_list):

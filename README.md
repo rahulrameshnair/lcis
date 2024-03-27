@@ -37,6 +37,7 @@ At present, the tool has been tested for compatibility with the following versio
   - bw2analyzer 0.10
   - bw_migrations 0.1, 0.2
 - Python: 3.9, 3.10
+- OS: Win 10 and 11. 
 
 It has to be further noted that tool was mainly tested in VSCode, and Spyder using the environment cloned from environment.yml. There have been some unreproducible errors while using a conventional (browser based) jupyerserver. However, a future release of this tool will feature installation from package managers such as conda and/or pip. This, hopefully, circumvents such issues.
 

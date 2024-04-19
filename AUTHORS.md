@@ -6,4 +6,4 @@ Additional contributors are persons who are not main authors, but contributed no
 Of course, this is just a rough overview and categorization. For a more complete overview of all contributors and contributions, please inspect the git history of this repository.
 
 ## Main Authors
-- Rahul Ramesh Nair (Email)[rahulgenesis@hotmail.com], (ORCID))
+- Rahul Ramesh Nair ([E-Mail](mailto:rahulgenesis@hotmail.com),[ORCID](https://orcid.org/0000-0003-4832-8702)): original author

@@ -11,13 +11,15 @@ import csv
 import uuid
 from datetime import datetime, timezone
 
-class metadata:
-    """ 
+
+class Metadata:
+    """
     To handle all the additional user-generated metadata that is associatted with a dataset.
 
     Methods available:
     excel_to_md(file_path, output_file)
     """
+
     @staticmethod
     def excel_to_csv(excel_file_path, csv_file_path):
         """
@@ -27,13 +29,13 @@ class metadata:
         excel_file_path (str): The path to the metadata excel file.
         csv_file_path (str): The path where the CSV file should be saved.
         """
-        
+
         df = pd.read_excel(excel_file_path)
         # Save the dataframe to a CSV file
         df.to_csv(csv_file_path, index=False)
 
         print(f"File converted and saved as {csv_file_path}")
-    
+
     def excel_to_md(self, file_path, output_file):
         """
         Converts metadata file present in xlsx format to an unformatted markdown file.
@@ -43,8 +45,8 @@ class metadata:
 
         Returns:
         a success message if file conversion has taken place.
-        
-        """          
+
+        """
         # Read the Excel file into a dictionary of DataFrames, with sheet names as keys
         try:
             xls = pd.ExcelFile(file_path)
@@ -65,16 +67,17 @@ class metadata:
         print(f"Excel file converted to Markdown and saved as '{output_file}'.")
 
 
-class db_props:
-    """ 
+class Dbprops:
+    """
     To handle the properties of an LCI database that is present in a project
 
     Methods:
     gen_info()
     db_dependencies(dictionary)
     csv(csv_file, database_properties)
-    
+
     """
+
     def __init__(self, project_name, database_name):
         bw.projects.set_current(project_name)
         self.database = bw.Database(database_name)
@@ -87,8 +90,8 @@ class db_props:
         Returns:
         db_props (dict): properties of the database with 'property name and value as a key:value pair
         """
-        db_props={}
-        #counters for all properties
+        db_props = {}
+        # counters for all properties
         total_exchanges = 0
         total_biosphere_flows = 0
         total_technosphere_flows = 0
@@ -99,7 +102,7 @@ class db_props:
             total_biosphere_flows += len(activity.biosphere())
             total_technosphere_flows += len(activity.technosphere())
             total_production_flows += len(activity.production())
-        
+
         db_props["Total Project Parameters"] = len(ProjectParameter.select())
         db_props["Total Database Parameters"] = len(DatabaseParameter.select())
         db_props["Total Activity Parameters"] = len(ActivityParameter.select())
@@ -109,29 +112,46 @@ class db_props:
         db_props["Total Technosphere flows"] = total_technosphere_flows
         db_props["Total Reference products"] = total_production_flows
 
-        return (db_props)
-    
-    def identifying_info (self, schema_version, dataset_version):
+        return db_props
+
+    def identifying_info(self, schema_version, dataset_version):
         """
         To generate the identifying information concerning the datasets such as name, version, unique dataset identifier etc.
         Args:
-            LCI schema version (string)
-            dataset version defined according to the LCI schema (string)
+            schema_version (str): the schema version of the LCI
+            dataset_version (str): the version of the dataset defined according to the LCI schema
         Returns:
             idf_props (dict): propertie of the dataset in key:value pairs
         """
         timestamp = datetime.now(timezone.utc)
-        dataset_time = timestamp.strftime("%Y%m%d-%H%M%S") #formatting the time of the dataset in the form of yyyymmdd-hhmmss
-        text_for_udi = self.dataset_name + schema_version + dataset_version + dataset_time
-        udi = uuid.uuid5(uuid.NAMESPACE_X500, text_for_udi) #creates an unique dataset identifier (UDI)
-        dataset_udi = str(udi).replace('-','') #removes the - in the generated unique dataset identifier
+        dataset_time = timestamp.strftime(
+            "%Y%m%d-%H%M%S"
+        )  # formatting the time of the dataset in the form of yyyymmdd-hhmmss
+        text_for_udi = (
+            self.dataset_name + schema_version + dataset_version + dataset_time
+        )
+        udi = uuid.uuid5(
+            uuid.NAMESPACE_X500, text_for_udi
+        )  # creates an unique dataset identifier (UDI)
+        dataset_udi = str(udi).replace(
+            "-", ""
+        )  # removes the - in the generated unique dataset identifier
         software_version = brightway2.__version__
-        bw_version = "Brightway " + '.'.join(map(str, software_version)) #converts the version tuple to the format 0.0.0
-        idf_props = {"Dataset Name": self.dataset_name, "Schema Version": schema_version, "Dataset Version": dataset_version,"Software": bw_version, "Export Time": dataset_time, "Unique Dataset Identifier": dataset_udi}
+        bw_version = "Brightway " + ".".join(
+            map(str, software_version)
+        )  # converts the version tuple to the format 0.0.0
+        idf_props = {
+            "Dataset Name": self.dataset_name,
+            "Schema Version": schema_version,
+            "Dataset Version": dataset_version,
+            "Software": bw_version,
+            "Export Time": dataset_time,
+            "Unique Dataset Identifier": dataset_udi,
+        }
 
-        return (idf_props)
+        return idf_props
 
-    def db_dependencies (self):
+    def db_dependencies(self):
         """
         To find out the dependencies of the selected dataset in a project.
 
@@ -141,11 +161,12 @@ class db_props:
         database_dependencies = []
         for activity in self.database:
             for exchange in activity.exchanges():
-                if 'database' in exchange:
-                    db_value = exchange['database']
+                if "database" in exchange:
+                    db_value = exchange["database"]
                     if db_value not in database_dependencies:
                         database_dependencies.append(db_value)
-        return (database_dependencies)
+        return database_dependencies
+
     # @staticmethod
     # def db_dependencies (dictionary, dependencies=[]):
     #     """
@@ -170,11 +191,10 @@ class db_props:
     #             for exchange in value:
     #                 db_props.db_dependencies(exchange)
     #     return (dependencies)
-    
 
     @staticmethod
     def csv(csv_file, database_properties):
-        """ 
+        """
         Generates the csv file of the database properties
 
         Args:
@@ -185,15 +205,19 @@ class db_props:
         A success message after the creation of the csv file.
         """
         # Write the dictionary to a CSV file
-        with open(csv_file, 'w', newline='') as csvfile:
+        with open(csv_file, "w", newline="") as csvfile:
             writer = csv.writer(csvfile)
-            
+
             # Write the header
-            writer.writerow(['Property', 'Value'])
-            
+            writer.writerow(["Property", "Value"])
+
             # Write the dictionary data
             for key, value in database_properties.items():
                 if isinstance(value, list):
-                    value = ', '.join(value)  # Join the list into a comma-separated string
+                    value = ", ".join(
+                        value
+                    )  # Join the list into a comma-separated string
                 writer.writerow([key, value])
-        print (f"The database properties file have been successfully created as '{csv_file}'.")
+        print(
+            f"The database properties file have been successfully created as '{csv_file}'."
+        )

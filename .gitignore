@@ -1,3 +1,12 @@
 LCI/**
 .idea/**
 __pycache__/
+network/_old/**
+network/_test/**
+network/_pycache_/**
+network/sample_results/**
+export/_old/**
+export/_test/**
+export/sample_results/**
+sample_results/**
+_pycache_/**

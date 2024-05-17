@@ -255,15 +255,9 @@ class LCI:
             node_attributes[activity_info["name"]] = activity_info
 
             exchanges = activities_dict[activity]["exchanges"]
-            # print (exchanges)
+
             for ex in exchanges:
-                # print(ex)
                 if ex["type"] == "production":
-                    network_graph.add_node(
-                        ex["reference product"],
-                        color=production_node_color,
-                        width=production_node_width,
-                    )
                     network_graph.add_edge(
                         activity_name,
                         ex["reference product"],
@@ -271,34 +265,23 @@ class LCI:
                         line_type=production_line_style,
                         arrows=True,
                     )
-                    node_attributes[ex["reference product"]] = ex
-                elif ex["type"] == "technosphere":
-                    network_graph.add_node(
-                        ex["reference product"],
-                        color=technosphere_node_color,
-                        width=technosphere_node_width,
-                    )
+                elif ex["type"] =="technosphere":
                     network_graph.add_edge(
                         ex["reference product"],
                         activity_name,
-                        color=production_edge_color,
-                        line_type=production_line_style,
+                        color=technosphere_edge_color,
+                        line_type=technosphere_line_style,
                         arrows=True,
                     )
-                    node_attributes[ex["reference product"]] = ex
-                else:
-                    network_graph.add_node(
-                        ex["name"],
-                        color=biosphere_node_color,
-                        width=biosphere_node_width,
-                    )
+                elif ex["type"] == "biosphere":
+                    
                     network_graph.add_edge(
-                        activity_name,
-                        ex["name"],
-                        color=biosphere_edge_color,
-                        line_type=biosphere_line_style,
-                        arrows=True,
+                            activity_name,
+                            ex["name"],
+                            color=biosphere_edge_color,
+                            line_type=biosphere_line_style,
+                            arrows=True,
                     )
-                    node_attributes[ex["name"]] = ex
+
 
         return (network_graph, node_attributes)

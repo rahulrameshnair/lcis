@@ -38,6 +38,8 @@ def excel_format(excel_file, output_excel_file):
         "reference product",
         "type",
         "unit",
+        "comment",
+        "production amount"
         "amount",
         "worksheet name",
     ]

@@ -1,7 +1,5 @@
 # SLIC 
 
-<img src="icon.jpg" alt="SLIC tool icon" style="width: 30%; height: 30%;">
-
 ## What is it?
 It is a Python based tool that aids in converting foreground life cycle inventories (LCI) in Brightway in compliance with the  life cycle inventory schema (LCIS). The detailed structure and background of LCIS is published elsewhere. (Link will be updated soon). SLIC is an anagram of LCIS. Please refer to this schema to understand the abbreviations and terms used below.
 

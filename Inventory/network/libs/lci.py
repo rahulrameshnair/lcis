@@ -217,23 +217,18 @@ class LCI:
         # --------------------------
         # Colors for nodes and edges
         activity_node_color = "blue"
-        production_node_color = "black"
         production_edge_color = "black"
-        technosphere_node_color = "purple"
         technosphere_edge_color = "purple"
-        biosphere_node_color = "green"
         biosphere_edge_color = "green"
 
         # line types for nodes and edges
-        production_line_style = "Solid"
-        technosphere_line_style = "Dash"
+        production_line_style = "Dash"
+        technosphere_line_style = "Solid"
         biosphere_line_style = "Dots"
 
         # node widths and heights
         parent_activity_width = 26
-        production_node_width = 22
-        technosphere_node_width = 20
-        biosphere_node_width = 20
+
         # ----------------------------
 
         network_graph = nx.DiGraph()
@@ -263,7 +258,9 @@ class LCI:
                         ex["reference product"],
                         color=production_edge_color,
                         line_type=production_line_style,
-                        arrows=True,
+                        amount = ex["amount"],
+                        unit = ex["unit"],
+                        arrows = True,
                     )
                 elif ex["type"] =="technosphere":
                     network_graph.add_edge(
@@ -271,6 +268,8 @@ class LCI:
                         activity_name,
                         color=technosphere_edge_color,
                         line_type=technosphere_line_style,
+                        amount = ex["amount"],
+                        unit = ex["unit"],
                         arrows=True,
                     )
                 elif ex["type"] == "biosphere":
@@ -280,6 +279,8 @@ class LCI:
                             ex["name"],
                             color=biosphere_edge_color,
                             line_type=biosphere_line_style,
+                            amount = ex["amount"],
+                            unit = ex["unit"],
                             arrows=True,
                     )
 

@@ -1,11 +1,11 @@
 # SLIC 
 
 ## What is it?
-It is a Python based tool that aids in converting foreground life cycle inventories (LCI) in Brightway in compliance with the  life cycle inventory schema (LCIS). The detailed structure and background of LCIS is published elsewhere. (Link will be updated soon). SLIC is an anagram of LCIS. Please refer to this schema to understand the abbreviations and terms used below.
+It is a Python based set of code that aids in converting foreground life cycle inventories (LCI) in Brightway in compliance with the  life cycle inventory schema (LCIS). The detailed structure and background of LCIS is published elsewhere. (Link will be updated soon). SLIC is an anagram of LCIS. Please refer to this schema (link will be provided here later) to understand the abbreviations and terms used below.
 
 ## What is LCIS?
 
-LCIS (version 2024) is a schema proposed for the sharing of life cycle inventories based on existing standards and conventions to promote open-data. SLIC is a python tool developed for the conversion of life cycle inventories in compliance with this schema. This schema will soon be published open-access in a scientific journal. And a link will be provided here.
+LCIS (version 2024) is a schema proposed for the sharing of life cycle inventories based on existing standards and conventions to promote open-data. SLIC is a python implementation for the conversion of life cycle inventories in compliance with this schema. This schema will soon be published open-access in a scientific journal. And a link will be provided here.
 
 ## Installation & Usage
 
@@ -15,7 +15,7 @@ LCIS (version 2024) is a schema proposed for the sharing of life cycle inventori
 
 ### Usage
 
-The tool mainly consists of two modules - inventory and imports.
+The code mainly consists of two modules - inventory and imports.
 
 The main purpose of /Inventory deals with the export of brightway foreground datasets according to LCIS.
 1. Open  and run the cells within the jupyter notebook /Inventory/export_lci.ipynb to generate the dataset files (csv, xlsx), dataset properties (csv) for your LCI. Follow the instructions within the notebook.
@@ -35,7 +35,7 @@ The main purpose of /Imports is to import excel datasets into Brightway. It then
 
 ## Compatibility
 
-At present, the tool has been tested for compatibility with the following versions of Brightway and Python. Due to the rapidly evovling nature of Brightway, these versions have to be kept in mind prior to the utlization of this tool.
+At present, the this code has been tested for compatibility with the following versions of Brightway and Python. Due to the rapidly evovling nature of Brightway, these versions have to be kept in mind prior to the utlization of this code.
 - Brightway 2.4.2, 2.4.3
   - bw2calc 1.8.1, 1.8.2
   - bw2data 3.6.5, 3.6.6
@@ -45,11 +45,11 @@ At present, the tool has been tested for compatibility with the following versio
 - Python: 3.9, 3.10
 - OS: Win 10 and 11. 
 
-It has to be further highlighted that tool was primarily tested in VSCode, and Spyder using the environment cloned from environment.yml. A conventional browser-based jupyternotebook should also work.
+It has to be further highlighted that these jupyter notebooks were primarily tested in VSCode, and Spyder using the environment cloned from environment.yml. A conventional browser-based jupyternotebook should also work.
 
 ## To Dos in the upcoming versions
 - [ ] Code refractoring
-- [ ] Convert the tool to a conventional python package format
+- [ ] Convert the code to a conventional python package format, and release as a tool
 - [ ] Availability through Pypi
 - [ ] Bulk import of foreground inventories and their dependencies based on the database properties file
 - [ ] Conversion of metadata into a JSON scheme

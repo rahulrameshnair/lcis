@@ -1,11 +1,11 @@
-# SLIC 
+# DLR tool for life cycle inventory schema 
 
 ## What is it?
-It is a Python based set of code that aids in converting foreground life cycle inventories (LCI) in Brightway in compliance with the  life cycle inventory schema (LCIS). The detailed structure and background of LCIS is published elsewhere. (Link will be updated soon). SLIC is an anagram of LCIS. Please refer to this schema (link will be provided here later) to understand the abbreviations and terms used below.
+It is a Python tool that aids in converting foreground life cycle inventories (LCI) in Brightway in compliance with the  life cycle inventory schema (LCIS). The detailed structure and background of LCIS is published elsewhere. (Link will be updated soon). Please refer to this schema (link will be provided here later) to understand the abbreviations and terms used below.
 
 ## What is LCIS?
 
-LCIS (version 2024) is a schema proposed for the sharing of life cycle inventories based on existing standards and conventions to promote open-data. SLIC is a python implementation for the conversion of life cycle inventories in compliance with this schema. This schema will soon be published open-access in a scientific journal. And a link will be provided here.
+LCIS (version 2024) is a schema proposed for the sharing of life cycle inventories based on existing standards and conventions to promote open-data. This tool is a python implementation for the conversion of life cycle inventories in compliance with this schema. This schema will soon be published open-access in a scientific journal. And a link will be provided here.
 
 ## Installation & Usage
 

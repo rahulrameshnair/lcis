@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: 'DLR tool for life cycle inventory schema (LCIS)'
+message: >-
+  If you use this tool to convert life cycle inventories,
+  please cite the tool and its version using these metadata.
+type: software
+authors:
+  - given-names: Rahul Ramesh
+    family-names: Nair
+    email: rahul.nair@dlr.de
+    orcid: 'https://orcid.org/0000-0003-4832-8702'
+    affiliation: German Aerospace Center (DLR)
+identifiers:
+  - type: url
+    value: 'https://github.com/'
+    description: Github
+repository-code: 'https://github.com/'
+license: MIT
+commit: test
+version: 0.2.2
+date-released: '2024-06-04'
+

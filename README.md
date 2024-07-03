@@ -1,23 +1,23 @@
 # DLR tool for life cycle inventory schema 
 
 ## What is it?
-It is a Python tool developed at the German Aerospace Center (DLR) that aids in converting foreground life cycle inventories (LCI) in compliance with the life cycle inventory schema (LCIS). It makes use of the Brightway LCA framework. The detailed structure and background of LCIS is under peer review. (Link will be updated soon). Please refer to this schema to understand the schema terminology and usage.
+It is a Python tool developed at the German Aerospace Center (DLR) that aids in converting foreground life cycle inventories (LCI) in compliance with the life cycle inventory schema (LCIS). It makes use of the Brightway LCA framework.
 
 ## What is LCIS?
 
-LCIS (version 2024) is a schema proposed for the sharing of life cycle inventories based on existing standards and conventions to promote open-data. This tool is a python implementation for the conversion of life cycle inventories in compliance with this schema. 
+LCIS (version 2024) is a simple and intuitive schema proposed for the sharing of life cycle inventories based on existing standards and conventions to promote open-data with minimal technical hurdles. This tool is a python implementation for the conversion of life cycle inventories in compliance with this schema. The detailed structure and background of LCIS is under peer review. (Link will be updated soon). However, a pre-print is soon to be available via arXiv. Please refer to this schema to understand the terminology and usage of this tool.
 
 ## Installation & Usage
 
 1. Download the latest version from the releases page.
 2. Extract and open the folder in your favourite IDE.
-2. Clone the ennvironment file environment.yml using conda, and select it as the python kernel.
+2. Clone the ennvironment file environment.yml using conda, and select it as the python kernel in your IDE if choice (VS Code, Pycharm etc.)
 
 ### Usage
 
-The code mainly consists of two modules - inventory and imports.
+The tool mainly consists of two modules - inventory and imports.
 
-The main purpose of /Inventory deals with the export of brightway foreground datasets according to LCIS.
+The main purpose of /Inventory is to export of brightway foreground datasets according to LCIS.
 1. Open  and run the cells within the jupyter notebook /Inventory/export_lci.ipynb to generate the dataset files (csv, xlsx), dataset properties (csv) for your LCI. Follow the instructions within the notebook.
 2. Open and run the /network/LCI_network.ipynb according to the instructions in the notebook to generate the network file (graphml). The resulting network diagram can rendered in any software such as Cytoscape, Gephi etc. A sample styleshet for the render is provided in /network/libs/stylesheets/
 3. The metadata excel template is available at /export/templates.
@@ -26,7 +26,7 @@ The main purpose of /Inventory deals with the export of brightway foreground dat
 *Note 2* : in all jupyternotebooks, there are some interactive elements such as selection windows (i.e, a window will pop to select a file). If you do not see them appear, usually they are present behind other open windows in your operating system. No idea, why this window does not immediately become active. This will be debugged later.
 
 
-The main purpose of /Imports is to import excel datasets into Brightway. It then applies some linking methods to link any missing exchanges and flows. This is built on top of the brightway import functions. If your datasets cannot be imported using these functions, you can give this jupyter notebook a try. There are not much strict rules for an excel template. A discussion on this can be found [here](https://stackoverflow.com/questions/73623195/brightway2-what-is-the-model-pattern-for-an-xlsx-database). However, for ease of use, a conventional brightway excel template is always recommended. An example can be found [here](https://ars.els-cdn.com/content/image/1-s2.0-S0921344922004451-mmc2.xlsx). A similar demo template is also provided in /Imports/templates
+The main purpose of /Imports is to import excel datasets into Brightway. It then applies some methods to link any missing exchanges and flows. This is built on top of the brightway import functions. If your datasets cannot be imported using these functions, you can give this jupyter notebook a try. There are not much strict rules for an excel template. A discussion on this can be found [here](https://stackoverflow.com/questions/73623195/brightway2-what-is-the-model-pattern-for-an-xlsx-database). However, for ease of use, a conventional brightway excel template is always recommended. An example can be found [here](https://ars.els-cdn.com/content/image/1-s2.0-S0921344922004451-mmc2.xlsx). A similar demo template is also provided in /Imports/templates
 
 1. Open and run the cells in the jupyter notebook /Imports/import_excel_inventory.ipynb. 
 2. Follow the instructions within the notebook.
@@ -34,7 +34,7 @@ The main purpose of /Imports is to import excel datasets into Brightway. It then
 
 ## Compatibility
 
-At present, the this code has been tested for compatibility with the following versions of Brightway and Python. Due to the rapidly evovling nature of Brightway, these versions have to be kept in mind prior to the utlization of this code.
+The code has been tested for compatibility with the following versions of Brightway and Python. Due to the rapidly evovling nature of Brightway, these versions have to be kept in mind prior to the utlization of this code.
 - Brightway 2.4.2, 2.4.3
   - bw2calc 1.8.1, 1.8.2
   - bw2data 3.6.5, 3.6.6
@@ -44,12 +44,17 @@ At present, the this code has been tested for compatibility with the following v
 - Python: 3.9, 3.10
 - OS: Win 10 and 11. 
 
-It has to be further highlighted that these jupyter notebooks were primarily tested in VSCode, and Spyder using the environment cloned from environment.yml. A conventional browser-based jupyternotebook should also work.
+All jupyter notebooks were primarily tested in VSCode, and Spyder using environment.yml. A conventional browser-based jupyternotebook should also work.
+
+## How to cite?
+
+- This latest version of this repository can be always be cited through [Zenodo](https://zenodo.org/records/12200857) DOI: 10.5281/zenodo.12200856
+- Further citation information can be found in citation.cff file.
 
 ## To Dos in the upcoming versions
 - [ ] Code refractoring
 - [ ] Convert the code to a conventional python package format, and release as a tool
-- [ ] Availability through Pypi
+- [ ] Availability as a package through Pypi
 - [ ] Bulk import of foreground inventories and their dependencies based on the database properties file
 - [ ] Conversion of metadata into a JSON scheme
-- [ ] Optimization of the network drawing from brightway to networkx
+- [ ] Optimization of the database traversal in brightway and handover to Networkx

@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "lcis"
+version = "0.3.0"
+description = "Life Cycle Inventory Schema - A standardized schema for sharing LCA inventories"
+authors = ["Rahul Ramesh Nair <rahul.nair@dlr.de>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "lcis", from = "src" }]
+include = ["src/lcis/templates/*.xlsx"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+brightway2 = "^2.4.3"
+networkx = "^3.1"
+pandas = ">=1.5,<3.0"
+openpyxl = "^3.1.1"
+numpy = "^1.23.5"
+click = ">=8.0,<9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.poetry.scripts]
+lcis = "lcis.cli:cli"
